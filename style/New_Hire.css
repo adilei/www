@@ -1,0 +1,293 @@
+#New_Hire .sfm_textbox
+{
+    padding:1px;
+}
+#New_Hire .sfm_textarea
+{
+    padding:2px;
+    resize:none;
+}
+#New_Hire .error_strings
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#660000;
+}
+#New_Hire img
+{
+    border:0;
+}
+#New_Hire .loading_div
+{
+    background-color:transparent;
+    background-image:url("images/loading.gif");
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+#New_Hire input[type='submit'],input[type='reset']
+{
+    font:inherit;
+    color:inherit;
+}
+#New_Hire .sfm_cr_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#888888;
+}
+#New_Hire .sfm_cr_box a
+{
+    color:#888888;
+}
+#New_Hire .sfm_slider
+{
+    margin:0;
+    display:inline-bock;
+}
+#New_Hire .slider_label
+{
+    padding-top:5px;
+    padding-left:3px;
+    overflow:visible;
+    display:inline-block;
+}
+
+@media only screen and (max-width : 480px)
+{
+#New_Hire .sfm_form_label,.element_label
+{
+    padding:12px 0 3px 0;
+    clear:both;
+}
+#New_Hire .form_outer_div
+{
+    padding:10px;
+}
+#New_Hire .sfm_element_container
+{
+    margin-bottom:10px;
+    content:'';
+    display:inline-block;
+    clear:both;
+    width:100%;
+}
+#New_Hire .sfm_date_container:after
+{
+    content:'';
+    display:block;
+    clear:both;
+}
+#New_Hire fieldset
+{
+    display:none;
+}
+#New_Hire .sfm_textbox_common
+{
+    width:100%;
+}
+#New_Hire .sfm_datepicker_img_container
+{
+    padding-top:2px;
+    padding-left:2px;
+}
+#New_Hire .sfm_datepicker_input
+{
+    width:80%;
+}
+
+}
+#New_Hire .form_outer_div
+{
+    border:none;
+    background-color:#ffffff;
+}
+#New_Hire .sfm_form_label
+{
+    background-color:transparent;
+}
+#New_Hire .element_label
+{
+    background-color:transparent;
+}
+body#sfm_New_Hire_body
+{
+    background-color:transparent;
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+    margin:0px;
+}
+#New_Hire .form_outer_div
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+}
+#New_Hire .form_subheading
+{
+    background-color:transparent;
+    margin:0;
+    padding:0;
+}
+#New_Hire .sfm_float_error_box
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#eeeeee;
+    background:none repeat scroll 0 0 #333333;
+    border:0;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow:0 0 4px #333;
+    border:none;
+}
+#New_Hire .sfm_close_box
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#eeeeee;
+}
+#New_Hire .progress_box_container
+{
+    border:1px solid #8e8e8e;
+    background-color:#cccccc;
+    font-family:Arial;
+    font-size:10px;
+    color:#ffffff;
+    text-align:center;
+    vertical-align:middle;
+}
+#New_Hire .progress_box
+{
+    background-color:#333333;
+    width:2px;
+    float:left;
+    margin:2px;
+}
+#New_Hire .page_heading
+{
+    background-color:transparent;
+    margin:0;
+    padding:0;
+}
+#New_Hire .page_number
+{
+    background-color:transparent;
+}
+#New_Hire input[type='text'],input[type='password'],input[type='email'],input[type='tel'],input[type='number']
+{
+    background-color:#ffffff;
+    border:1px solid #888888;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    height:23px;
+    line-height:23px;
+}
+#New_Hire textarea
+{
+    background-color:#ffffff;
+    border:1px solid #888888;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+
+#New_Hire #t486f37bdbf36a2f3096d
+{
+    width:5px;
+    height:5px;
+    display:none;
+}
+#New_Hire #label_container
+{
+    z-index:2;
+}
+#New_Hire #Textbox_container
+{
+    z-index:1;
+}
+#New_Hire #Textbox
+{
+    float:left;
+    z-index:1;
+}
+#New_Hire #FileUpload_container
+{
+    z-index:3;
+}
+#New_Hire #FileUpload
+{
+    float:left;
+    z-index:3;
+}
+#New_Hire #Submit_container
+{
+    z-index:4;
+}
+#New_Hire #New_Hire_Submit_img
+{
+    width:84px;
+    height:29px;
+    border:none;
+}
+
+@media only screen and (min-width : 480px)
+{
+#New_Hire #New_Hire_outer_div_p1
+{
+    width:300px;
+    height:400px;
+}
+#New_Hire #label_container
+{
+    position:absolute;
+    left:24px;
+    top:96px;
+}
+#New_Hire #label_container
+{
+    width:60px;
+    height:20px;
+}
+#New_Hire #label
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#New_Hire #Textbox_container
+{
+    position:absolute;
+    left:120px;
+    top:96px;
+}
+#New_Hire #Textbox
+{
+    width:114px;
+    height:19px;
+}
+#New_Hire #FileUpload_container
+{
+    position:absolute;
+    left:40px;
+    top:188px;
+}
+#New_Hire #FileUpload
+{
+    width:220px;
+    height:24px;
+}
+#New_Hire #Submit_container
+{
+    position:absolute;
+    left:112px;
+    top:328px;
+    width:80px;
+    height:25px;
+}
+
+}

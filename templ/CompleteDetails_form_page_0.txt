@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html >
+   <head >
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <title >Form Page: CompleteDetails</title>
+      <meta name='generator' content='Simfatic Forms 5.0.8.459'>
+      <script src='scripts/jquery-1.7.2.min.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.utils.js' type='text/javascript'></script>
+      <script src='scripts/sfm_validatorv7.js' type='text/javascript'></script>
+      <link rel='stylesheet' type='text/css' href='style/CompleteDetails.css?r=%sfm_css_rand%'>
+   </head>
+   <body id='sfm_CompleteDetails_body'>
+      <form id='CompleteDetails' class='sfm_form' novalidate='novalidate' enctype='multipart/form-data' method='post' action='%sfm_self_script%' accept-charset='UTF-8'>
+         <div id='CompleteDetails_errorloc' class='error_strings' style='width:300px;text-align:left'>%sfm_error_display_loc%</div>
+         <div id='CompleteDetails_outer_div_p1' class='form_outer_div'>
+            <div style='position:relative' id='CompleteDetails_inner_div'>
+               <input type='hidden' name='sfm_form_submitted' value='yes'>
+               <input type='hidden' name='%_sfm_form_id_iput_var_%' value='%_sfm_form_id_iput_value_%'>
+               <input type='text' name='t1fad5aa87d04cdb8e960' id='t1fad5aa87d04cdb8e960'>
+               <div id='heading_container' class='form_subheading'>
+                  <h2 id='heading' class='form_subheading'>Hi, Susan!</h2>
+               </div>
+               <div id='label_container'>
+                  <div id='label'>Please provide some details so we can start with your onboarding process</div>
+               </div>
+               <div id='label1_container' class='sfm_form_label'>
+                  <label id='label1' for='SSN'>SSN</label>
+               </div>
+               <div id='SSN_container' class='sfm_element_container'>
+                  <input type='text' name='SSN' id='SSN' class='sfm_textbox_common sfm_textbox' size='20' value='%SSN%'>
+               </div>
+               <div id='label2_container' class='sfm_form_label'>
+                  <label id='label2'>Marital Status</label>
+               </div>
+               <div id='marital_status_container' class='sfm_element_container'>
+                  <select name='marital_status' id='marital_status' size='1'>
+                     <option value='Single' %7f2ba9e5407f9ffc27299b3f8ddf914e%>Single</option>
+                     <option value='Married' %503437580b073da83d0c6468952bca6d%>Married</option>
+                     <option value='Common Law' %775c943a95064f1bc93949d8821ef0c9%>Common Law</option>
+                     <option value='Domestic Partnership' %8bbc0784f1fa71c9f0fe8557cf071c79%>Domestic Partnership</option>
+                  </select>
+               </div>
+               <div id='label3_container' class='sfm_form_label'>
+                  <label id='label3'>Please upload a clear image of a void cheque</label>
+               </div>
+               <div id='FileUpload_container' class='sfm_element_container'>
+                  <input type='file' name='FileUpload' id='FileUpload'>
+               </div>
+               <div id='Submit_container' class='loading_div sfm_element_container'>
+                  <input type='image' name='Submit' id='CompleteDetails_Submit_img' src='images/submit.png' alt='submit'>
+               </div>
+               <div id='Image_container'>
+                  <img class='sfm_image_in_form' src='images/helix banner.png' width='300' height='80' alt>
+               </div>
+            </div>
+         </div>
+<div class='sfm_cr_box' style='padding:3px; width:350px;cursor:default'>Web form powered by <a rel='nofollow' style='text-decoration:none;' href='http://simfatic.com/form-software/css-form-generator.html'>Simfatic Forms</a> - database form builder</div>
+      </form>
+      <script type='text/javascript'>
+$(function()
+{
+   sfm_show_loading_on_formsubmit('CompleteDetails','CompleteDetails_Submit_img');
+});
+      </script>
+      <script type='text/javascript'>
+var CompleteDetailsValidator = new Validator("CompleteDetails");
+CompleteDetailsValidator.addValidation("SSN",{required:true,message:"Please fill in SSN"} );
+CompleteDetailsValidator.addValidation("SSN",{alnum:true,message:"The input for SSN should be a valid alpha-numeric value"} );
+CompleteDetailsValidator.addValidation("FileUpload",{req_file:true,message:"File upload is required for FileUpload"} );
+      </script>
+   </body>
+</html>

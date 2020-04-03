@@ -1,0 +1,413 @@
+#CompleteDetails .sfm_textbox
+{
+    padding:1px;
+}
+#CompleteDetails .sfm_textarea
+{
+    padding:2px;
+    resize:none;
+}
+#CompleteDetails .error_strings
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#660000;
+}
+#CompleteDetails img
+{
+    border:0;
+}
+#CompleteDetails .loading_div
+{
+    background-color:transparent;
+    background-image:url("images/loading.gif");
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+#CompleteDetails input[type='submit'],input[type='reset']
+{
+    font:inherit;
+    color:inherit;
+}
+#CompleteDetails .sfm_cr_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#888888;
+}
+#CompleteDetails .sfm_cr_box a
+{
+    color:#888888;
+}
+#CompleteDetails .sfm_slider
+{
+    margin:0;
+    display:inline-bock;
+}
+#CompleteDetails .slider_label
+{
+    padding-top:5px;
+    padding-left:3px;
+    overflow:visible;
+    display:inline-block;
+}
+
+@media only screen and (max-width : 480px)
+{
+#CompleteDetails .sfm_form_label,.element_label
+{
+    padding:12px 0 3px 0;
+    clear:both;
+}
+#CompleteDetails .form_outer_div
+{
+    padding:10px;
+}
+#CompleteDetails .sfm_element_container
+{
+    margin-bottom:10px;
+    content:'';
+    display:inline-block;
+    clear:both;
+    width:100%;
+}
+#CompleteDetails .sfm_date_container:after
+{
+    content:'';
+    display:block;
+    clear:both;
+}
+#CompleteDetails fieldset
+{
+    display:none;
+}
+#CompleteDetails .sfm_textbox_common
+{
+    width:100%;
+}
+#CompleteDetails .sfm_datepicker_img_container
+{
+    padding-top:2px;
+    padding-left:2px;
+}
+#CompleteDetails .sfm_datepicker_input
+{
+    width:80%;
+}
+
+}
+#CompleteDetails .form_outer_div
+{
+    border:none;
+    background-color:#ffffff;
+}
+#CompleteDetails .sfm_form_label
+{
+    background-color:transparent;
+}
+#CompleteDetails .element_label
+{
+    background-color:transparent;
+}
+body#sfm_CompleteDetails_body
+{
+    background-color:transparent;
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+    margin:0px;
+}
+#CompleteDetails .form_outer_div
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+}
+#CompleteDetails .form_subheading
+{
+    background-color:transparent;
+    margin:0;
+    padding:0;
+}
+#CompleteDetails .sfm_float_error_box
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#eeeeee;
+    background:none repeat scroll 0 0 #333333;
+    border:0;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow:0 0 4px #333;
+    border:none;
+}
+#CompleteDetails .sfm_close_box
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#eeeeee;
+}
+#CompleteDetails .progress_box_container
+{
+    border:1px solid #8e8e8e;
+    background-color:#cccccc;
+    font-family:Arial;
+    font-size:10px;
+    color:#ffffff;
+    text-align:center;
+    vertical-align:middle;
+}
+#CompleteDetails .progress_box
+{
+    background-color:#333333;
+    width:2px;
+    float:left;
+    margin:2px;
+}
+#CompleteDetails .page_heading
+{
+    background-color:transparent;
+    margin:0;
+    padding:0;
+}
+#CompleteDetails .page_number
+{
+    background-color:transparent;
+}
+#CompleteDetails input[type='text'],input[type='password'],input[type='email'],input[type='tel'],input[type='number']
+{
+    background-color:#ffffff;
+    border:1px solid #888888;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    height:23px;
+    line-height:23px;
+}
+#CompleteDetails textarea
+{
+    background-color:#ffffff;
+    border:1px solid #888888;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+
+#CompleteDetails #t1fad5aa87d04cdb8e960
+{
+    width:5px;
+    height:5px;
+    display:none;
+}
+#CompleteDetails #heading_container
+{
+    z-index:2;
+}
+#CompleteDetails #label_container
+{
+    z-index:1;
+}
+#CompleteDetails #label
+{
+    text-align:left;
+    font-family:Arial;
+    font-size:9pt;
+    color:#000000;
+}
+#CompleteDetails #label1_container
+{
+    z-index:4;
+}
+#CompleteDetails #SSN_container
+{
+    z-index:5;
+}
+#CompleteDetails #SSN
+{
+    float:left;
+    z-index:5;
+}
+#CompleteDetails #label2_container
+{
+    z-index:7;
+}
+#CompleteDetails #marital_status_container
+{
+    z-index:6;
+}
+#CompleteDetails #marital_status
+{
+    float:left;
+    z-index:6;
+}
+#CompleteDetails #label3_container
+{
+    z-index:9;
+}
+#CompleteDetails #FileUpload_container
+{
+    z-index:8;
+}
+#CompleteDetails #FileUpload
+{
+    float:left;
+    z-index:8;
+}
+#CompleteDetails #Submit_container
+{
+    z-index:10;
+}
+#CompleteDetails #CompleteDetails_Submit_img
+{
+    width:91px;
+    height:91px;
+    border:none;
+}
+#CompleteDetails #Image_container
+{
+    z-index:3;
+}
+
+@media only screen and (min-width : 480px)
+{
+#CompleteDetails #CompleteDetails_outer_div_p1
+{
+    width:300px;
+    height:400px;
+}
+#CompleteDetails #heading_container
+{
+    position:absolute;
+    left:10px;
+    top:8px;
+    width:160px;
+    height:20px;
+}
+#CompleteDetails #heading
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    text-align:left;
+}
+#CompleteDetails #label_container
+{
+    position:absolute;
+    left:9px;
+    top:39px;
+    width:284px;
+    height:31px;
+}
+#CompleteDetails #label
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+#CompleteDetails #label1_container
+{
+    position:absolute;
+    left:13px;
+    top:78px;
+}
+#CompleteDetails #label1_container
+{
+    width:43px;
+    height:20px;
+}
+#CompleteDetails #label1
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#CompleteDetails #SSN_container
+{
+    position:absolute;
+    left:13px;
+    top:110px;
+}
+#CompleteDetails #SSN
+{
+    width:207px;
+    height:19px;
+}
+#CompleteDetails #label2_container
+{
+    position:absolute;
+    left:13px;
+    top:147px;
+}
+#CompleteDetails #label2_container
+{
+    width:135px;
+    height:20px;
+}
+#CompleteDetails #label2
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#CompleteDetails #marital_status_container
+{
+    position:absolute;
+    left:13px;
+    top:179px;
+}
+#CompleteDetails #marital_status
+{
+    width:120px;
+    height:22px;
+}
+#CompleteDetails #label3_container
+{
+    position:absolute;
+    left:13px;
+    top:213px;
+}
+#CompleteDetails #label3_container
+{
+    width:261px;
+    height:20px;
+}
+#CompleteDetails #label3
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#CompleteDetails #FileUpload_container
+{
+    position:absolute;
+    left:13px;
+    top:245px;
+}
+#CompleteDetails #FileUpload
+{
+    width:220px;
+    height:24px;
+}
+#CompleteDetails #Submit_container
+{
+    position:absolute;
+    left:112px;
+    top:252px;
+    width:91px;
+    height:91px;
+}
+#CompleteDetails #Image_container
+{
+    position:absolute;
+    left:0px;
+    top:320px;
+    width:300px;
+    height:80px;
+}
+
+}
