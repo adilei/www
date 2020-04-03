@@ -33,10 +33,10 @@
   
     $mail->IsHTML(true);
     $mail->AddAddress($recipientMail, $recipientFirstName.' '.$recipientLastName);
-    $mail->SetFrom("onboarding.rpa@gmail.com", "Your Onboarding Companion");
+    $mail->SetFrom("noreply@onboarding.com", "Your Onboarding Companion");
     $mail->AddReplyTo("noreply@onboarding.com", "No Reply");
     //$mail->AddCC("cc-recipient-email", "cc-recipient-name");
-    $mail->Subject = "Wellcome to ACME, ".$recipientFirstName;
+    $mail->Subject = "This is your first day with us, ".$recipientFirstName;
     $content = $emailBody;
   
     $mail->MsgHTML($content); 
@@ -58,7 +58,10 @@
   $emailBody = str_replace("lastname",$input->lastName,$emailBody);
   //$urlToClick = $config['check_form_url']."/?FirstName=".$input->firstName."&LastName=".$input->lastName."&dwpHost=".$config['dwpHost']."&dwpPort=".$config['dwpPort']."&procCorr=".$input->procID;
   //$urlToClick = "http:\\/\\/localhost:9090\\/forms\\/CompleteDetails\/CompleteDetails.php\/?FirstName=Adi&LastName=Lei&dwpHost=5e1d590a-227c-4f6b-8a30-58e76cf53551.mock.pstmn.io&dwpPort=443&procCorr=hihi";
-  $emailBody = str_replace("http://laragon",$config['check_form_url'].$input->procID,$emailBody);
+  $dwpHost = $config['dwpHost'];
+  $dwpPort = $config['dwpPort'];
+  $urltoClick = $config['check_form_url']."FirstName=".$input->firstName."&LastName=".$input->lastName."&dwpHost=".$dwpHost."&dwpPort=".$dwpPort."&procCorr=".$input->procID;
+  $emailBody = str_replace("http://laragon",$urltoClick,$emailBody);
   
 
 switch ($method) {
