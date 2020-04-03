@@ -33,8 +33,8 @@
   
     $mail->IsHTML(true);
     $mail->AddAddress($recipientMail, $recipientFirstName.' '.$recipientLastName);
-    $mail->SetFrom("onboarding.rpa@gmail.com", "RPA");
-    //$mail->AddReplyTo("reply-to-email", "reply-to-name");
+    $mail->SetFrom("onboarding.rpa@gmail.com", "Your Onboarding Companion");
+    $mail->AddReplyTo("noreply@onboarding.com", "No Reply");
     //$mail->AddCC("cc-recipient-email", "cc-recipient-name");
     $mail->Subject = "Wellcome to ACME, ".$recipientFirstName;
     $content = $emailBody;
