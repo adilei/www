@@ -1,0 +1,8 @@
+<?PHP /* --Simfatic Forms Log File--
+127.0.0.1|2020-04-04 12:09:55 PM|form:CompleteDetails|error| Error/Warning reported: Function get_magic_quotes_gpc() is deprecated\n file:C:\Users\Adi\Apps\Laragon\www\forms\CompleteDetails\includes\CompleteDetails-lib.php\nline: 3351 \n\n
+127.0.0.1|2020-04-04 12:09:55 PM|form:CompleteDetails|info| GetVars:formvars Array\n(\n    [_sfm_visitor_ip_] => 127.0.0.1\n    [_sfm_unique_id_] => d0689fc9592bad8b3be795b8daecf9e4\n    [_sfm_form_page_session_id_] => 328765ec60b15088dfd8f782cda5e91d\n    [_sfm_form_submision_time_] => 4/4/2020 12:09:55 IDT(+0300 GMT)\n    [_sfm_form_submision_date_] => 4/4/2020\n    [_sfm_referer_page_] => \n    [_sfm_user_agent_] => SimfaticForms\n    [_sfm_visitor_os_] => Search Bot\n    [_sfm_visitor_browser_] => \n)\n\n
+127.0.0.1|2020-04-04 12:09:55 PM|form:CompleteDetails|error| Error/Warning reported: Non-static method Crypt_Blowfish::factory() should not be called statically\n file:C:\Users\Adi\Apps\Laragon\www\forms\CompleteDetails\includes\CompleteDetails-lib.php\nline: 3514 \n\n
+127.0.0.1|2020-04-04 12:09:55 PM|form:CompleteDetails|info| SFM_AppCommand:ValidateConfigInput succeeded
+127.0.0.1|2020-04-04 12:09:55 PM|form:CompleteDetails|error| Error/Warning reported: Non-static method Crypt_Blowfish::factory() should not be called statically\n file:C:\Users\Adi\Apps\Laragon\www\forms\CompleteDetails\includes\CompleteDetails-lib.php\nline: 3514 \n\n
+127.0.0.1|2020-04-04 12:09:55 PM|form:CompleteDetails|error| Error/Warning reported: Non-static method Crypt_Blowfish::factory() should not be called statically\n file:C:\Users\Adi\Apps\Laragon\www\forms\CompleteDetails\includes\CompleteDetails-lib.php\nline: 3529 \n\n
+--Simfatic Forms Log File-- */ ?>
