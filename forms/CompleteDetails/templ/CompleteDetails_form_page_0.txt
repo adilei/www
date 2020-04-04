@@ -59,7 +59,7 @@
                </div>
             </div>
          </div>
-<div class='sfm_cr_box' style='padding:3px; width:350px;cursor:default'>This email form is powered by <a style='text-decoration:none;' href='http://simfatic.com/form-software/html-contact-form-generator.html'>Simfatic Forms</a> - dynamic web form builder</div>
+<div class='sfm_cr_box' style='padding:3px; width:350px;cursor:default'>Web form powered by <a rel='nofollow' style='text-decoration:none;' href='http://simfatic.com/form-software/css-form-generator.html'>Simfatic Forms</a> - wysiwyg form builder</div>
       </form>
       <script type='text/javascript'>
 $(function()
