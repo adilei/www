@@ -3,7 +3,7 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "http://mobility270-dsom-dwpc.trybmc.com:80/api/rx/application/command",
+  CURLOPT_URL => "https://mobility270-dsom-dwpc.trybmc.com:80/api/rx/application/command",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_SSLVERSION => 6,
@@ -36,7 +36,7 @@ else
 echo $token;
 
 curl_setopt_array($curl, array(
-    CURLOPT_URL => "http://mobility270-dsom-dwpc.trybmc.com:80/api/myit-sb/processes/signal",
+    CURLOPT_URL => "https://mobility270-dsom-dwpc.trybmc.com:80/api/myit-sb/processes/signal",
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => "",
     CURLOPT_MAXREDIRS => 10,
