@@ -3,7 +3,7 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://5e1d590a-227c-4f6b-8a30-58e76cf53551.mock.pstmn.io/api/rx/application/command",
+  CURLOPT_URL => "http://mobility270-dsom-dwpc.trybmc.com:80/api/rx/application/command",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_SSLVERSION => 6,
@@ -36,7 +36,7 @@ else
 echo $token;
 
 curl_setopt_array($curl, array(
-    CURLOPT_URL => "https://5e1d590a-227c-4f6b-8a30-58e76cf53551.mock.pstmn.io/api/myit-sb/processes/signal",
+    CURLOPT_URL => "http://mobility270-dsom-dwpc.trybmc.com:80/api/myit-sb/processes/signal",
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => "",
     CURLOPT_MAXREDIRS => 10,
@@ -44,7 +44,7 @@ curl_setopt_array($curl, array(
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => "POST",
-    CURLOPT_POSTFIELDS =>"{\n    \"resourceType\": \"com.bmc.arsys.rx.application.process.command.SignalProcessInstanceCommand\",\n    \"processCorrelation\": {\n        \"resourceType\": \"com.bmc.arsys.rx.services.process.domain.AutomaticCorrelation\",\n        \"processCorrelationId\": \"rx-8b247f89-a8e1-4c9f-946f-151835d21a69|IDGG4K5MF31Q0AQHP1KXQHP1KX0LOC||IDGG4K5MF31Q0AQHP1KXQHP1KX0LOC\"\n    },\n    \"signalInputValues\": {\n        \"Work Status\": \"Cancelled\"\n    }\n}",
+    CURLOPT_POSTFIELDS =>"{\n    \"resourceType\": \"com.bmc.arsys.rx.application.process.command.SignalProcessInstanceCommand\",\n    \"processCorrelation\": {\n        \"resourceType\": \"com.bmc.arsys.rx.services.process.domain.AutomaticCorrelation\",\n        \"processCorrelationId\": \"rx-3f370925-6577-4020-856e-5a3a6776ddb6|IDGFPI1ZGM0EQAQIJ0JRQIJ0JRYFCQ||IDGFPI1ZGM0EQAQIJ0JRQIJ0JRYFCQ\"\n    },\n    \"signalInputValues\": {\n        \"Work Status\": \"Cancelled\"\n    }\n}",
     CURLOPT_HTTPHEADER => array(
       "Authorization: JWT ".$token,
       "Content-Type: application/json",
