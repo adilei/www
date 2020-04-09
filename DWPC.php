@@ -35,7 +35,9 @@ else
 
 echo $token;
 
-curl_setopt_array($curl, array(
+$curl_signal = curl_init();
+
+curl_setopt_array($curl_signal, array(
   CURLOPT_URL => "https://mobility270-dsom-dwpc.trybmc.com/api/myit-sb/processes/signal",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
@@ -46,15 +48,15 @@ curl_setopt_array($curl, array(
   CURLOPT_CUSTOMREQUEST => "POST",
   CURLOPT_POSTFIELDS =>"{\n    \"resourceType\": \"com.bmc.arsys.rx.application.process.command.SignalProcessInstanceCommand\",\n    \"processCorrelation\": {\n        \"resourceType\": \"com.bmc.arsys.rx.services.process.domain.AutomaticCorrelation\",\n        \"processCorrelationId\": \"rx-3f370925-6577-4020-856e-5a3a6776ddb6|IDGFPI1ZGM0EQAQIJ0JRQIJ0JRYFCQ||IDGFPI1ZGM0EQAQIJ0JRQIJ0JRYFCQ\"\n    },\n    \"signalInputValues\": {\n        \"Work Status\": \"Cancelled\"\n    }\n}",
   CURLOPT_HTTPHEADER => array(
-    "Authorization: JWT eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYXhQaUJcL2NcL1I2NUtBTG1vME9qSlBSTjlPVFpuRXlua0lWSUtFSWw0bm9pTXRHMkJzdVRcL1JjUDNRMnlMWXVPdzVtdUpuVGxaUHY4MkVicWVBWVwvRTM0Q2dEam9kNHJFcUlObUlUOXdFblEwU0YwdG9tSDRuZz09IiwibmJmIjoxNTg2MDkyNTgwLCJpc3MiOiJkd3BjLXNiLTAuZHdwYy1zYi5pbm5vc3R1ZGlvLnN2Yy5jbHVzdGVyLmxvY2FsIiwiX2F1dGhTdHJpbmciOiJVb0JxQnF4WkhoWTJrc0UweEdCbnczanlmdzRwVmE1QjJQUHpnalZtaTVQb1pLenVcL0VmRnl6VUtycU1scVg2REljUGFza2MyeWJSOSs1aUtWQ2VMengxQjZkbUUrMEU3blFMMXRPQ1NOYTI4b1lSVmI5OUpMQT09IiwiZXhwIjoxNTg2MDk2MzAwLCJfY2FjaGVJZCI6NDYwNzIsImlhdCI6MTU4NjA5MjcwMCwianRpIjoiSURHRlBJMVpHTTBFUUFRSTE2WUtRSDM3SjRaNTZWIiwiX2Fic29sdXRlRXhwaXJhdGlvblRpbWUiOjE1ODYxNzkxMDB9.u8EvM-DrdpnZ6k1BJVJGdf9va_nhU_Z2DzZzo18_mgQ",
+    "Authorization: JWT ".$token,
     "Content-Type: application/json",
-    "X-Requested-By: 111",
-    "Content-Type: application/json"
+    "Accept: application/json",
+    "X-Requested-By: 111"
   ),
 ));
 
   
-  $response = curl_exec($curl);
+  $response = curl_exec($curl_signal);
   
-  curl_close($curl);
+  curl_close($curl_signal);
   echo $response;

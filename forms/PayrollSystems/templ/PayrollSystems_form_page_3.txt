@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html >
+   <head >
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <title >Form Page: PayrollSystems</title>
+      <meta name='generator' content='Simfatic Forms 5.0.8.459'>
+      <script src='scripts/jquery-1.7.2.min.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.utils.js' type='text/javascript'></script>
+      <script src='scripts/sessvars.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.formsave.js' type='text/javascript'></script>
+      <link rel='stylesheet' type='text/css' href='style/PayrollSystems.css?r=%sfm_css_rand%'>
+   </head>
+   <body id='sfm_PayrollSystems_body' onload='try{window.parent.scroll(0,0);}catch(e){}'>
+      <form id='PayrollSystems' class='sfm_form' novalidate='novalidate' method='post' action='%sfm_self_script%' accept-charset='UTF-8'>
+         <div id='PayrollSystems_errorloc' class='error_strings' style='width:1150px;text-align:left'>%sfm_error_display_loc%</div>
+         <div id='PayrollSystems_outer_div_p4' class='form_outer_div'>
+            <div style='position:relative' id='PayrollSystems_inner_div'>
+               <input type='hidden' name='sfm_form_submitted' value='yes'>
+               <input type='hidden' name='sfm_form_page_num' value='3'>
+               <div id='Image4_container'>
+                  <img class='sfm_image_in_form' src='images/payroll banner.jpg' width='1141' height='109' alt>
+               </div>
+               <div id='horiz_line4'></div>
+               <div id='Image5_container'>
+                  <img class='sfm_image_in_form' src='images/tabs3.png' width='1141' height='53' alt>
+               </div>
+               <div id='horiz_line5'></div>
+               <div id='label23_container' class='sfm_form_label'>
+                  <label id='label23'>Account Type</label>
+               </div>
+               <div id='label26_container' class='sfm_form_label'>
+                  <label id='label26'>Account Number</label>
+               </div>
+               <div id='label27_container' class='sfm_form_label'>
+                  <label id='label27'>Deposit Distribution</label>
+               </div>
+               <div id='label24_container' class='sfm_form_label'>
+                  <label id='label24'>Bank Name</label>
+               </div>
+               <div id='label25_container' class='sfm_form_label'>
+                  <label id='label25'>Transit Number</label>
+               </div>
+               <div id='Textbox18_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox18' id='Textbox18' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox18%'>
+               </div>
+               <div id='Textbox19_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox19' id='Textbox19' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox19%'>
+               </div>
+               <div id='Textbox20_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox20' id='Textbox20' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox20%'>
+               </div>
+               <div id='Textbox21_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox21' id='Textbox21' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox21%'>
+               </div>
+               <div id='Textbox22_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox22' id='Textbox22' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox22%'>
+               </div>
+               <div id='Textbox23_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox23' id='Textbox23' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox23%'>
+               </div>
+               <div id='Textbox24_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox24' id='Textbox24' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox24%'>
+               </div>
+               <div id='Textbox25_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox25' id='Textbox25' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox25%'>
+               </div>
+               <div id='Textbox26_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox26' id='Textbox26' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox26%'>
+               </div>
+               <div id='Textbox27_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox27' id='Textbox27' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox27%'>
+               </div>
+               <div id='Textbox28_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox28' id='Textbox28' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox28%'>
+               </div>
+               <div id='Textbox29_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox29' id='Textbox29' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox29%'>
+               </div>
+               <div id='Textbox30_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox30' id='Textbox30' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox30%'>
+               </div>
+               <div id='Textbox31_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox31' id='Textbox31' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox31%'>
+               </div>
+               <div id='Textbox32_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox32' id='Textbox32' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox32%'>
+               </div>
+               <div id='sfm_prev_page2_container' class='loading_div sfm_element_container'>
+                  <input type='image' name='sfm_prev_page' id='PayrollSystems_sfm_prev_page2_img' src='images/PayrollSystems-sfm_prev_page2-0.png' alt='&lt;&lt; Prev'>
+               </div>
+               <div id='sfm_save_n_close_container' class='loading_div sfm_element_container'>
+                  <input type='image' name='sfm_save_n_close' id='PayrollSystems_sfm_save_n_close_img' src='images/PayrollSystems-sfm_save_n_close-0.png' alt='Save and Close'>
+               </div>
+            </div>
+         </div>
+<div class='sfm_cr_box' style='padding:3px; width:350px;cursor:default'>Web form powered by <a style='text-decoration:none;' rel='nofollow' href='http://simfatic.com/form-software/'>Simfatic Forms</a> - database form builder</div>
+      </form>
+      <script type='text/javascript'>
+$(function()
+{
+   sfm_init_special_action_button('PayrollSystems','PayrollSystems_sfm_prev_page2_img','sfm_prev_page');
+   sfm_show_loading_on_formsubmit('PayrollSystems','PayrollSystems_sfm_prev_page2_img');
+   sfm_init_special_action_button('PayrollSystems','PayrollSystems_sfm_save_n_close_img','sfm_save_n_close');
+   sfm_show_loading_on_formsubmit('PayrollSystems','PayrollSystems_sfm_save_n_close_img');
+});
+$('form#PayrollSystems').simSaveForm();
+      </script>
+   </body>
+</html>

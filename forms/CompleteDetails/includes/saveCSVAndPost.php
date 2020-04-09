@@ -16,7 +16,7 @@ class SaveCSVtoServer extends FM_ExtensionModule
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-        CURLOPT_URL => "http://".$dwpHost.":".$dwpPort."/api/rx/application/command",
+        CURLOPT_URL => "https://".$dwpHost.":".$dwpPort."/api/rx/application/command",
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => "",
         CURLOPT_MAXREDIRS => 10,

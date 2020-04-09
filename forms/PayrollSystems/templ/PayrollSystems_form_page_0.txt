@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+   <head >
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <title >Form Page: PayrollSystems</title>
+      <meta name='generator' content='Simfatic Forms 5.0.8.459'>
+      <script src='scripts/jquery-1.7.2.min.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.utils.js' type='text/javascript'></script>
+      <script src='scripts/sessvars.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.formsave.js' type='text/javascript'></script>
+      <link rel='stylesheet' type='text/css' href='style/PayrollSystems.css?r=%sfm_css_rand%'>
+   </head>
+   <body id='sfm_PayrollSystems_body' onload='try{window.parent.scroll(0,0);}catch(e){}'>
+      <form id='PayrollSystems' class='sfm_form' novalidate='novalidate' method='post' action='%sfm_self_script%' accept-charset='UTF-8'>
+         <div id='PayrollSystems_errorloc' class='error_strings' style='width:1150px;text-align:left'>%sfm_error_display_loc%</div>
+         <div id='PayrollSystems_outer_div_p1' class='form_outer_div'>
+            <div style='position:relative' id='PayrollSystems_inner_div'>
+               <input type='hidden' name='sfm_form_page_num' value='0'>
+               <div id='Image6_container'>
+                  <img class='sfm_image_in_form' src='images/payroll banner.jpg' width='1141' height='109' alt>
+               </div>
+               <div id='horiz_line6'></div>
+               <div id='Username_container' class='sfm_element_container'>
+                  <input type='text' name='Username' id='Username' class='sfm_textbox_common sfm_textbox' size='20' placeholder='User' value='%Username%'>
+               </div>
+               <div id='Textbox33_container' class='sfm_element_container'>
+                  <input type='password' name='Textbox33' id='Textbox33' class='sfm_textbox_common sfm_textbox' size='20' placeholder='Password' value='%Textbox33%'>
+               </div>
+               <div id='sfm_next_page2_container' class='loading_div sfm_element_container'>
+                  <input type='image' name='sfm_next_page2' id='PayrollSystems_sfm_next_page2_img' src='images/PayrollSystems-sfm_next_page2-1.png' alt='Login'>
+               </div>
+            </div>
+         </div>
+<div class='sfm_cr_box' style='padding:3px; width:350px;cursor:default'>Proudly powered by: Simfatic Forms <a style='text-decoration:none;' rel='nofollow' href='http://simfatic.com/form-software/html-form-creator.html'>simple wysiwyg form builder</a>.</div>
+      </form>
+      <script type='text/javascript'>
+$(function()
+{
+   sfm_show_loading_on_formsubmit('PayrollSystems','PayrollSystems_sfm_next_page2_img');
+});
+$('form#PayrollSystems').simSaveForm();
+      </script>
+   </body>
+</html>

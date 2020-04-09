@@ -5,13 +5,13 @@
       <meta content="text/html; charset=utf-8" http-equiv='Content-Type'>
       <meta name='viewport' content='width=device-width, initial-scale=1.0'>
       <style >
-h2
+h2 
 {
-	font-family:Arial, sans-serif;
+	font-family:Arial, sans-serif; 
 }
 body
 {
-	font-family:Arial, sans-serif;
+	font-family:Arial, sans-serif; 
 	line-height:1.5em;
 	background-color:transparent
 }
@@ -36,7 +36,7 @@ body
 	vertical-align: top;
 }
 
-.sfm_table_container td.FieldValue
+.sfm_table_container td.FieldValue 
 {
 	font-family : Arial, Helvetica, sans-serif;
 	font-size : 10pt;
@@ -46,10 +46,6 @@ body
    </head>
    <body onload='window.parent.scroll(0,0);' style='BACKGROUND-COLOR: transparent'>
       <h2 >Thank You!</h2>
-      <strong >
-We are now all&nbsp;good 
-to&nbsp;go!
-      </strong>
-&nbsp;
+The form is successfully submitted.       <br >
    </body>
 </html>

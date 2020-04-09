@@ -25,7 +25,7 @@ require_once(dirname(__FILE__)."/includes/CompleteDetails-lib.php");
 $formproc_obj =  new SFM_FormProcessor('CompleteDetails');
 $formproc_obj->initTimeZone('Asia/Jerusalem');
 $formproc_obj->setFormID('0753471c-5ec2-4ec0-9ca1-e9ba8d93b3a8');
-$formproc_obj->setRandKey('c0a6a2b5-014b-4e39-8b30-3bbec4b4bcc5');
+$formproc_obj->setRandKey('203400fd-b6de-4e20-8179-4091ce9753d1');
 $formproc_obj->setFormKey('fc258910-6f0a-469b-9c3b-6f3f07dd649d');
 $formproc_obj->setLocale('en-US','M/d/yyyy');
 $formproc_obj->setEmailFormatHTML(true);
@@ -37,18 +37,16 @@ $formproc_obj->EnableLoadFormValuesFromURL(true);
 $formproc_obj->SetPrintPreviewPage(sfm_readfile(dirname(__FILE__)."/templ/CompleteDetails_print_preview_file.txt"));
 $formproc_obj->SetSingleBoxErrorDisplay(true);
 $formproc_obj->setFormPage(0,sfm_readfile(dirname(__FILE__)."/templ/CompleteDetails_form_page_0.txt"));
-$formproc_obj->AddElementInfo('FirstName','text','');
-$formproc_obj->AddElementInfo('LastName','text','');
+$formproc_obj->AddElementInfo('FirstName','hidden','');
+$formproc_obj->AddElementInfo('LastName','hidden','');
 $formproc_obj->AddElementInfo('SSN','text','');
-$formproc_obj->AddElementInfo('procCorr','text','');
-$formproc_obj->AddElementInfo('dwpPort','text','');
-$formproc_obj->AddElementInfo('dwpHost','text','');
-$formproc_obj->AddElementInfo('FileUpload','file','');
-$formproc_obj->AddDefaultValue('FirstName','Adi');
-$formproc_obj->AddDefaultValue('LastName','Leibowitz');
+$formproc_obj->AddElementInfo('dwpHost','hidden','');
+$formproc_obj->AddElementInfo('dwpPort','hidden','');
+$formproc_obj->AddElementInfo('procCorr','hidden','');
+$formproc_obj->AddElementInfo('upload','upload_ex','');
 $formproc_obj->setIsInstalled(true);
 $formproc_obj->setFormFileFolder('./formdata');
-$formproc_obj->SetHiddenInputTrapVarName('t1fad5aa87d04cdb8e960');
+$formproc_obj->DisableAntiSpammerSecurityChecks();
 $page_renderer =  new FM_FormPageDisplayModule();
 $formproc_obj->addModule($page_renderer);
 
@@ -60,19 +58,23 @@ $formproc_obj->addModule($admin_page);
 
 $validator =  new FM_FormValidator();
 $validator->addValidation("SSN","required","Please fill in SSN");
-$validator->addValidation("SSN","alnum","The input for SSN should be a valid alpha-numeric value");
-$validator->addValidation("FileUpload","req_file","File upload is required for FileUpload");
+$validator->addValidation("SSN","numeric","The input for SSN should be a valid numeric value");
+$validator->addValidation("SSN","minlen=9","Please provide exactly 9 digits for SSN");
+$validator->addValidation("SSN","maxlen=9","Please provide exactly 9 digits for SSN");
+$validator->addValidation("upload","max_numfiles=1","You can upload only 2 files for this field");
+$validator->addValidation("upload","max_filesize=2048","The file size should be less than 2 MB");
+$validator->addValidation("upload","req_file","File upload is required for upload");
 $formproc_obj->addModule($validator);
 
 $upld =  new FM_FileUploadHandler();
-$upld->SetFileUploadFields(array('FileUpload'));
+$upld->SetFileUploadFields(array('upload'));
 $formproc_obj->addModule($upld);
 
 $datahandler =  new FM_DataHandler();
 $formproc_obj->addModule($datahandler);
 
 $csv_maker =  new FM_FormDataCSVMaker(1024);
-$csv_maker->AddCSVVariable(array('_sfm_form_submision_time_','_sfm_unique_id_','SSN','FileUpload','_sfm_visitor_ip_','FirstName','LastName'));
+$csv_maker->AddCSVVariable(array('_sfm_form_submision_time_','_sfm_unique_id_','SSN','_sfm_visitor_ip_','FirstName','LastName','upload'));
 $formproc_obj->addModule($csv_maker);
 
 require_once(dirname(__FILE__)."/includes/saveCSVAndPost.php");

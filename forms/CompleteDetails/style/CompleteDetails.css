@@ -98,6 +98,7 @@
 }
 #CompleteDetails .form_outer_div
 {
+    margin:0 auto;
     border:none;
     background-color:#ffffff;
 }
@@ -195,33 +196,9 @@ body#sfm_CompleteDetails_body
 }
 
 
-#CompleteDetails #t1fad5aa87d04cdb8e960
-{
-    width:5px;
-    height:5px;
-    display:none;
-}
 #CompleteDetails #heading_container
 {
-    z-index:8;
-}
-#CompleteDetails #FirstName_container
-{
-    z-index:9;
-}
-#CompleteDetails #FirstName
-{
-    float:left;
-    z-index:9;
-}
-#CompleteDetails #LastName_container
-{
-    z-index:10;
-}
-#CompleteDetails #LastName
-{
-    float:left;
-    z-index:10;
+    z-index:4;
 }
 #CompleteDetails #label_container
 {
@@ -236,70 +213,36 @@ body#sfm_CompleteDetails_body
 }
 #CompleteDetails #label1_container
 {
-    z-index:3;
+    z-index:2;
 }
 #CompleteDetails #SSN_container
 {
-    z-index:4;
+    z-index:3;
 }
 #CompleteDetails #SSN
 {
     float:left;
-    z-index:4;
+    z-index:3;
 }
-#CompleteDetails #procCorr_container
-{
-    z-index:13;
-}
-#CompleteDetails #procCorr
-{
-    float:left;
-    z-index:13;
-}
-#CompleteDetails #dwpPort_container
-{
-    z-index:12;
-}
-#CompleteDetails #dwpPort
-{
-    float:left;
-    z-index:12;
-}
-#CompleteDetails #dwpHost_container
+#CompleteDetails #upload_container
 {
     z-index:11;
 }
-#CompleteDetails #dwpHost
+#CompleteDetails #horiz_line
 {
-    float:left;
-    z-index:11;
-}
-#CompleteDetails #label3_container
-{
-    z-index:6;
-}
-#CompleteDetails #FileUpload_container
-{
-    z-index:5;
-}
-#CompleteDetails #FileUpload
-{
-    float:left;
-    z-index:5;
+    z-index:12;
+    border:none;
+    border-top:2px solid #000000;
 }
 #CompleteDetails #Submit_container
 {
-    z-index:7;
+    z-index:10;
 }
 #CompleteDetails #CompleteDetails_Submit_img
 {
-    width:91px;
-    height:91px;
+    width:300px;
+    height:48px;
     border:none;
-}
-#CompleteDetails #Image_container
-{
-    z-index:2;
 }
 
 @media only screen and (min-width : 480px)
@@ -307,13 +250,13 @@ body#sfm_CompleteDetails_body
 #CompleteDetails #CompleteDetails_outer_div_p1
 {
     width:300px;
-    height:400px;
+    height:450px;
 }
 #CompleteDetails #heading_container
 {
     position:absolute;
     left:10px;
-    top:8px;
+    top:0px;
     width:160px;
     height:20px;
 }
@@ -324,33 +267,11 @@ body#sfm_CompleteDetails_body
     left:0px;
     text-align:left;
 }
-#CompleteDetails #FirstName_container
-{
-    position:absolute;
-    left:43px;
-    top:6px;
-}
-#CompleteDetails #FirstName
-{
-    width:48px;
-    height:19px;
-}
-#CompleteDetails #LastName_container
-{
-    position:absolute;
-    left:105px;
-    top:6px;
-}
-#CompleteDetails #LastName
-{
-    width:88px;
-    height:19px;
-}
 #CompleteDetails #label_container
 {
     position:absolute;
     left:9px;
-    top:39px;
+    top:31px;
     width:284px;
     height:31px;
 }
@@ -363,12 +284,12 @@ body#sfm_CompleteDetails_body
 #CompleteDetails #label1_container
 {
     position:absolute;
-    left:17px;
-    top:114px;
+    left:9px;
+    top:109px;
 }
 #CompleteDetails #label1_container
 {
-    width:43px;
+    width:226px;
     height:20px;
 }
 #CompleteDetails #label1
@@ -381,91 +302,37 @@ body#sfm_CompleteDetails_body
 #CompleteDetails #SSN_container
 {
     position:absolute;
-    left:13px;
-    top:142px;
+    left:9px;
+    top:134px;
 }
 #CompleteDetails #SSN
 {
     width:207px;
     height:19px;
 }
-#CompleteDetails #procCorr_container
+#CompleteDetails #upload_container
 {
     position:absolute;
-    left:152px;
-    top:178px;
-}
-#CompleteDetails #procCorr
-{
-    width:48px;
-    height:19px;
-}
-#CompleteDetails #dwpPort_container
-{
-    position:absolute;
-    left:87px;
-    top:179px;
-}
-#CompleteDetails #dwpPort
-{
-    width:36px;
-    height:19px;
-}
-#CompleteDetails #dwpHost_container
-{
-    position:absolute;
-    left:17px;
-    top:180px;
-}
-#CompleteDetails #dwpHost
-{
-    width:47px;
-    height:19px;
-}
-#CompleteDetails #label3_container
-{
-    position:absolute;
-    left:13px;
-    top:213px;
-}
-#CompleteDetails #label3_container
-{
-    width:261px;
-    height:20px;
-}
-#CompleteDetails #label3
-{
-    position:absolute;
-    top:3px;
     left:0px;
-    text-align:left;
+    top:168px;
+    width:191px;
+    height:170px;
 }
-#CompleteDetails #FileUpload_container
+#CompleteDetails #horiz_line
 {
     position:absolute;
-    left:13px;
-    top:245px;
-}
-#CompleteDetails #FileUpload
-{
-    width:220px;
-    height:24px;
+    left:0px;
+    top:396px;
+    width:300px;
+    height:5px;
 }
 #CompleteDetails #Submit_container
 {
     position:absolute;
-    left:112px;
-    top:252px;
-    width:91px;
-    height:91px;
-}
-#CompleteDetails #Image_container
-{
-    position:absolute;
     left:0px;
-    top:320px;
+    top:402px;
     width:300px;
-    height:80px;
+    height:48px;
 }
 
 }

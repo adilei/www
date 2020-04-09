@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Saved Successfully!</title>
+</head>
+<style>
+
+h2 
+{
+	font-family:Arial, sans-serif; 
+}
+
+body
+{
+	font-family:Arial, sans-serif; 
+	line-height:1.5em;
+	background-color:transparent
+    font-size:1.5em;
+    font-weight: bold;
+}
+div#msgid
+{
+    margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+</style>
+<body > 
+<div id='msgid'>
+The form is saved. You can continue editing the form by visiting this link: {link}
+</div>
+
+</body>
+</html>

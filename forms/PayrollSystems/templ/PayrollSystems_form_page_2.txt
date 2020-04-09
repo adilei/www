@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html >
+   <head >
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <title >Form Page: PayrollSystems</title>
+      <meta name='generator' content='Simfatic Forms 5.0.8.459'>
+      <script src='scripts/jquery-1.7.2.min.js' type='text/javascript'></script>
+      <script src='scripts/jquery-ui-1.8.18.custom.min.js' type='text/javascript'></script>
+      <script src='scripts/globalize.js' type='text/javascript'></script>
+      <script src='scripts/jquery-ui-1.8.21.custom.date.min.js' type='text/javascript'></script>
+      <script src='scripts/moment.js' type='text/javascript'></script>
+      <script src='scripts/sfm_calendar.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.utils.js' type='text/javascript'></script>
+      <script src='scripts/sessvars.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.formsave.js' type='text/javascript'></script>
+      <link rel='stylesheet' type='text/css' href='style/jquery-ui-1.8.16.css'>
+      <link rel='stylesheet' type='text/css' href='style/PayrollSystems.css?r=%sfm_css_rand%'>
+   </head>
+   <body id='sfm_PayrollSystems_body' onload='try{window.parent.scroll(0,0);}catch(e){}'>
+      <form id='PayrollSystems' class='sfm_form' novalidate='novalidate' method='post' action='%sfm_self_script%' accept-charset='UTF-8'>
+         <div id='PayrollSystems_errorloc' class='error_strings' style='width:1150px;text-align:left'>%sfm_error_display_loc%</div>
+         <div id='PayrollSystems_outer_div_p3' class='form_outer_div'>
+            <div style='position:relative' id='PayrollSystems_inner_div'>
+               <input type='hidden' name='sfm_form_page_num' value='2'>
+               <div id='Image2_container'>
+                  <img class='sfm_image_in_form' src='images/payroll banner.jpg' width='1141' height='109' alt>
+               </div>
+               <div id='horiz_line2'></div>
+               <div id='Image3_container'>
+                  <img class='sfm_image_in_form' src='images/tabs2.png' width='1134' height='53' alt>
+               </div>
+               <div id='horiz_line3'></div>
+               <div id='label19_container' class='sfm_form_label'>
+                  <label id='label19'>Job Category</label>
+               </div>
+               <div id='label7_container' class='sfm_form_label'>
+                  <label id='label7'>Employee Status</label>
+               </div>
+               <div id='Textbox17_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox17' id='Textbox17' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox17%'>
+               </div>
+               <div id='Textbox6_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox6' id='Textbox6' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox6%'>
+               </div>
+               <div id='label8_container' class='sfm_form_label'>
+                  <label id='label8'>Social Security Number</label>
+               </div>
+               <div id='Textbox9_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox9' id='Textbox9' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox9%'>
+               </div>
+               <div id='Textbox8_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox8' id='Textbox8' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox8%'>
+               </div>
+               <div id='Textbox7_container' class='sfm_element_container'>
+                  <input type='text' name='Textbox7' id='Textbox7' class='sfm_textbox_common sfm_textbox' size='20' value='%Textbox7%'>
+               </div>
+               <div class='element_label sfm_element_container' id='CheckBoxSingle_container'><input type='checkbox' name='CheckBoxSingle' id='CheckBoxSingle' value='on' %89c89e9df72890c92263d5d1887a106d%><label for='CheckBoxSingle' class='element_label' id='CheckBoxSingle_label'></label></div>
+               <div id='label20_container' class='sfm_form_label'>
+                  <label id='label20'>Job Tax Credit</label>
+               </div>
+               <div id='label9_container' class='sfm_form_label'>
+                  <label id='label9'>Hire Date</label>
+               </div>
+               <div class='sfm_element_container sfm_date_container' id='DatePicker3_container'>
+                  <input type='text' name='DatePicker3' id='DatePicker3' class='sfm_datepicker_input' value='%DatePicker3%'>
+                  <input type='text' name='sfm_DatePicker3_parsed' id='sfm_DatePicker3_parsed' tabindex='-1' style='display:none'>
+                  <div id='DatePicker3_image_container' class='sfm_datepicker_img_container'>
+                     <img id='DatePicker3_image' class='sfm_datepicker_icon' src='images/date-picker.gif' width='20' height='20' alt='Click here to open the date picker'>
+                  </div>
+               </div>
+               <div class='element_label sfm_element_container' id='CheckBoxSingle1_container'><input type='checkbox' name='CheckBoxSingle1' id='CheckBoxSingle1' value='on' %f2e6d469d54515e7ecc693e49d871a29%><label for='CheckBoxSingle1' class='element_label' id='CheckBoxSingle1_label'></label></div>
+               <div id='label21_container' class='sfm_form_label'>
+                  <label id='label21'>Company Paid Pension</label>
+               </div>
+               <div id='label10_container' class='sfm_form_label'>
+                  <label id='label10'>Start Date</label>
+               </div>
+               <div class='sfm_element_container sfm_date_container' id='DatePicker4_container'>
+                  <input type='text' name='DatePicker4' id='DatePicker4' class='sfm_datepicker_input' value='%DatePicker4%'>
+                  <input type='text' name='sfm_DatePicker4_parsed' id='sfm_DatePicker4_parsed' tabindex='-1' style='display:none'>
+                  <div id='DatePicker4_image_container' class='sfm_datepicker_img_container'>
+                     <img id='DatePicker4_image' class='sfm_datepicker_icon' src='images/date-picker.gif' width='20' height='20' alt='Click here to open the date picker'>
+                  </div>
+               </div>
+               <div class='element_label sfm_element_container' id='CheckBoxSingle2_container'><input type='checkbox' name='CheckBoxSingle2' id='CheckBoxSingle2' value='on' %e9f8480b24b906d4a0a0aeccb7417891%><label for='CheckBoxSingle2' class='element_label' id='CheckBoxSingle2_label'></label></div>
+               <div id='label22_container' class='sfm_form_label'>
+                  <label id='label22'>Statutory Employee</label>
+               </div>
+               <div id='label11_container' class='sfm_form_label'>
+                  <label id='label11'>Birth Date</label>
+               </div>
+               <div class='sfm_element_container sfm_date_container' id='DatePicker5_container'>
+                  <input type='text' name='DatePicker5' id='DatePicker5' class='sfm_datepicker_input' value='%DatePicker5%'>
+                  <input type='text' name='sfm_DatePicker5_parsed' id='sfm_DatePicker5_parsed' tabindex='-1' style='display:none'>
+                  <div id='DatePicker5_image_container' class='sfm_datepicker_img_container'>
+                     <img id='DatePicker5_image' class='sfm_datepicker_icon' src='images/date-picker.gif' width='20' height='20' alt='Click here to open the date picker'>
+                  </div>
+               </div>
+               <div id='sfm_prev_page1_container' class='loading_div sfm_element_container'>
+                  <input type='image' name='sfm_prev_page' id='PayrollSystems_sfm_prev_page1_img' src='images/PayrollSystems-sfm_prev_page1-0.png' alt='&lt;&lt; Prev'>
+               </div>
+               <div id='sfm_next_page4_container' class='loading_div sfm_element_container'>
+                  <input type='image' name='sfm_next_page4' id='PayrollSystems_sfm_next_page4_img' src='images/PayrollSystems-sfm_next_page4-0.png' alt='Next &gt;&gt;'>
+               </div>
+            </div>
+         </div>
+<div class='sfm_cr_box' style='padding:3px; width:350px;cursor:default'>This email form is powered by <a style='text-decoration:none;' href='http://simfatic.com/form-software/html-contact-form-generator.html'>Simfatic Forms</a> - form creator software</div>
+      </form>
+      <script type='text/javascript'>
+$(function()
+{
+   new sfm_calendar({input_id:"DatePicker3",image_id:"DatePicker3_image",form_id:"PayrollSystems",mirror:"sfm_DatePicker3_parsed"})
+   new sfm_calendar({input_id:"DatePicker4",image_id:"DatePicker4_image",form_id:"PayrollSystems",mirror:"sfm_DatePicker4_parsed"})
+   new sfm_calendar({input_id:"DatePicker5",image_id:"DatePicker5_image",form_id:"PayrollSystems",mirror:"sfm_DatePicker5_parsed"})
+   sfm_init_special_action_button('PayrollSystems','PayrollSystems_sfm_prev_page1_img','sfm_prev_page');
+   sfm_show_loading_on_formsubmit('PayrollSystems','PayrollSystems_sfm_prev_page1_img');
+   sfm_show_loading_on_formsubmit('PayrollSystems','PayrollSystems_sfm_next_page4_img');
+});
+$('form#PayrollSystems').simSaveForm();
+      </script>
+   </body>
+</html>

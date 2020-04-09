@@ -1,0 +1,1968 @@
+#PayrollSystems .sfm_textbox
+{
+    padding:1px;
+}
+#PayrollSystems .sfm_textarea
+{
+    padding:2px;
+    resize:none;
+}
+#PayrollSystems .error_strings
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#660000;
+}
+#PayrollSystems img
+{
+    border:0;
+}
+#PayrollSystems .loading_div
+{
+    background-color:transparent;
+    background-image:url("images/loading.gif");
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+#PayrollSystems input[type='submit'],input[type='reset']
+{
+    font:inherit;
+    color:inherit;
+}
+#PayrollSystems .sfm_cr_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#888888;
+}
+#PayrollSystems .sfm_cr_box a
+{
+    color:#888888;
+}
+#PayrollSystems .sfm_slider
+{
+    margin:0;
+    display:inline-bock;
+}
+#PayrollSystems .slider_label
+{
+    padding-top:5px;
+    padding-left:3px;
+    overflow:visible;
+    display:inline-block;
+}
+
+@media only screen and (max-width : 480px)
+{
+#PayrollSystems .sfm_form_label,.element_label
+{
+    padding:12px 0 3px 0;
+    clear:both;
+}
+#PayrollSystems .form_outer_div
+{
+    padding:10px;
+}
+#PayrollSystems .sfm_element_container
+{
+    margin-bottom:10px;
+    content:'';
+    display:inline-block;
+    clear:both;
+    width:100%;
+}
+#PayrollSystems .sfm_date_container:after
+{
+    content:'';
+    display:block;
+    clear:both;
+}
+#PayrollSystems fieldset
+{
+    display:none;
+}
+#PayrollSystems .sfm_textbox_common
+{
+    width:100%;
+}
+#PayrollSystems .sfm_datepicker_img_container
+{
+    padding-top:2px;
+    padding-left:2px;
+}
+#PayrollSystems .sfm_datepicker_input
+{
+    width:80%;
+}
+
+}
+#PayrollSystems .form_outer_div
+{
+    margin:0 auto;
+    border:1px solid #68838b;
+    background-color:#ebebeb;
+}
+#PayrollSystems .sfm_form_label
+{
+    background-color:transparent;
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+}
+#PayrollSystems .element_label
+{
+    background-color:transparent;
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+}
+body#sfm_PayrollSystems_body
+{
+    background-color:#8dadab;
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+    margin:0px;
+}
+#PayrollSystems .form_outer_div
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+}
+#PayrollSystems .form_subheading
+{
+    background-color:#000000;
+    font-family:Arial;
+    font-size:20px;
+    color:#000066;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+}
+#PayrollSystems .sfm_float_error_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#660000;
+    background:none repeat scroll 0 0 #ffff66;
+    border:0;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow:0 0 4px #333;
+    border:1px solid #660000;
+}
+#PayrollSystems .sfm_close_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#660000;
+}
+#PayrollSystems .progress_box_container
+{
+    border:1px solid #8e8e8e;
+    background-color:#cccccc;
+    font-family:Arial;
+    font-size:10px;
+    color:#ffffff;
+    text-align:center;
+    vertical-align:middle;
+}
+#PayrollSystems .progress_box
+{
+    background-color:#333333;
+    width:2px;
+    float:left;
+    margin:2px;
+}
+#PayrollSystems .page_heading
+{
+    background-color:#000000;
+    font-family:Arial;
+    font-size:20px;
+    color:#000066;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+}
+#PayrollSystems .page_number
+{
+    background-color:transparent;
+}
+#PayrollSystems input[type='text'],input[type='password'],input[type='email'],input[type='tel'],input[type='number']
+{
+    background-color:#ffffff;
+    border:1px solid #888888;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    height:23px;
+    line-height:23px;
+}
+#PayrollSystems textarea
+{
+    background-color:#ffffff;
+    border:1px solid #888888;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+
+#PayrollSystems #Image6_container
+{
+    z-index:2;
+}
+#PayrollSystems #horiz_line6
+{
+    z-index:3;
+    border:none;
+    border-top:2px solid #000000;
+}
+#PayrollSystems #Username_container
+{
+    z-index:4;
+}
+#PayrollSystems #Username
+{
+    float:left;
+    z-index:4;
+}
+#PayrollSystems #Textbox33_container
+{
+    z-index:5;
+}
+#PayrollSystems #Textbox33
+{
+    float:left;
+    z-index:5;
+}
+#PayrollSystems #sfm_next_page2_container
+{
+    z-index:1;
+}
+#PayrollSystems #PayrollSystems_sfm_next_page2_img
+{
+    width:84px;
+    height:29px;
+    border:none;
+}
+
+@media only screen and (min-width : 480px)
+{
+#PayrollSystems #PayrollSystems_outer_div_p1
+{
+    width:1150px;
+    height:660px;
+}
+#PayrollSystems #Image6_container
+{
+    position:absolute;
+    left:4px;
+    top:4px;
+    width:1141px;
+    height:109px;
+}
+#PayrollSystems #horiz_line6
+{
+    position:absolute;
+    left:9px;
+    top:118px;
+    width:1134px;
+    height:5px;
+}
+#PayrollSystems #Username_container
+{
+    position:absolute;
+    left:477px;
+    top:276px;
+}
+#PayrollSystems #Username
+{
+    width:179px;
+    height:19px;
+}
+#PayrollSystems #Textbox33_container
+{
+    position:absolute;
+    left:477px;
+    top:316px;
+}
+#PayrollSystems #Textbox33
+{
+    width:179px;
+    height:19px;
+}
+#PayrollSystems #sfm_next_page2_container
+{
+    position:absolute;
+    left:529px;
+    top:384px;
+    width:80px;
+    height:25px;
+}
+
+}
+#PayrollSystems #label13
+{
+    font-family:Arial;
+    font-size:14px;
+    color:#000000;
+    font-weight:bold;
+}
+#PayrollSystems #label14
+{
+    font-family:Arial;
+    font-size:14px;
+    color:#000000;
+    font-weight:bold;
+}
+
+#PayrollSystems #Image_container
+{
+    z-index:1;
+}
+#PayrollSystems #horiz_line
+{
+    z-index:2;
+    border:none;
+    border-top:2px solid #000000;
+}
+#PayrollSystems #Image1_container
+{
+    z-index:3;
+}
+#PayrollSystems #horiz_line1
+{
+    z-index:6;
+    border:none;
+    border-top:2px solid #000000;
+}
+#PayrollSystems #label13_container
+{
+    z-index:14;
+}
+#PayrollSystems #label14_container
+{
+    z-index:19;
+}
+#PayrollSystems #label_container
+{
+    z-index:5;
+}
+#PayrollSystems #label15_container
+{
+    z-index:21;
+}
+#PayrollSystems #Textbox_container
+{
+    z-index:4;
+}
+#PayrollSystems #Textbox
+{
+    float:left;
+    z-index:4;
+}
+#PayrollSystems #Textbox13_container
+{
+    z-index:20;
+}
+#PayrollSystems #Textbox13
+{
+    float:left;
+    z-index:20;
+}
+#PayrollSystems #label1_container
+{
+    z-index:8;
+}
+#PayrollSystems #label16_container
+{
+    z-index:23;
+}
+#PayrollSystems #Textbox1_container
+{
+    z-index:7;
+}
+#PayrollSystems #Textbox1
+{
+    float:left;
+    z-index:7;
+}
+#PayrollSystems #Textbox14_container
+{
+    z-index:22;
+}
+#PayrollSystems #Textbox14
+{
+    float:left;
+    z-index:22;
+}
+#PayrollSystems #label18_container
+{
+    z-index:26;
+}
+#PayrollSystems #label17_container
+{
+    z-index:24;
+}
+#PayrollSystems #label2_container
+{
+    z-index:9;
+}
+#PayrollSystems #Textbox16_container
+{
+    z-index:27;
+}
+#PayrollSystems #Textbox16
+{
+    float:left;
+    z-index:27;
+}
+#PayrollSystems #Textbox10_container
+{
+    z-index:15;
+}
+#PayrollSystems #Textbox10
+{
+    float:left;
+    z-index:15;
+}
+#PayrollSystems #Textbox15_container
+{
+    z-index:25;
+}
+#PayrollSystems #Textbox15
+{
+    float:left;
+    z-index:25;
+}
+#PayrollSystems #label3_container
+{
+    z-index:10;
+}
+#PayrollSystems #Textbox11_container
+{
+    z-index:16;
+}
+#PayrollSystems #Textbox11
+{
+    float:left;
+    z-index:16;
+}
+#PayrollSystems #label4_container
+{
+    z-index:11;
+}
+#PayrollSystems #Textbox12_container
+{
+    z-index:17;
+}
+#PayrollSystems #Textbox12
+{
+    float:left;
+    z-index:17;
+}
+#PayrollSystems #label12_container
+{
+    z-index:13;
+}
+#PayrollSystems #Multiline_container
+{
+    z-index:18;
+}
+#PayrollSystems #Multiline
+{
+    height:77px;
+}
+#PayrollSystems #Multiline
+{
+    float:left;
+    z-index:18;
+}
+#PayrollSystems #sfm_next_page3_container
+{
+    z-index:12;
+}
+#PayrollSystems #PayrollSystems_sfm_next_page3_img
+{
+    width:84px;
+    height:29px;
+    border:none;
+}
+
+@media only screen and (min-width : 480px)
+{
+#PayrollSystems #PayrollSystems_outer_div_p2
+{
+    width:1150px;
+    height:660px;
+}
+#PayrollSystems #Image_container
+{
+    position:absolute;
+    left:4px;
+    top:4px;
+    width:1141px;
+    height:109px;
+}
+#PayrollSystems #horiz_line
+{
+    position:absolute;
+    left:9px;
+    top:121px;
+    width:1134px;
+    height:5px;
+}
+#PayrollSystems #Image1_container
+{
+    position:absolute;
+    left:9px;
+    top:127px;
+    width:1129px;
+    height:52px;
+}
+#PayrollSystems #horiz_line1
+{
+    position:absolute;
+    left:9px;
+    top:181px;
+    width:1134px;
+    height:5px;
+}
+#PayrollSystems #label13_container
+{
+    position:absolute;
+    left:70px;
+    top:215px;
+}
+#PayrollSystems #label13_container
+{
+    width:132px;
+    height:20px;
+}
+#PayrollSystems #label13
+{
+    position:absolute;
+    top:2px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #label14_container
+{
+    position:absolute;
+    left:690px;
+    top:215px;
+}
+#PayrollSystems #label14_container
+{
+    width:132px;
+    height:20px;
+}
+#PayrollSystems #label14
+{
+    position:absolute;
+    top:2px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #label_container
+{
+    position:absolute;
+    left:70px;
+    top:264px;
+}
+#PayrollSystems #label_container
+{
+    width:60px;
+    height:20px;
+}
+#PayrollSystems #label
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#PayrollSystems #label15_container
+{
+    position:absolute;
+    left:695px;
+    top:264px;
+}
+#PayrollSystems #label15_container
+{
+    width:60px;
+    height:20px;
+}
+#PayrollSystems #label15
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #Textbox_container
+{
+    position:absolute;
+    left:219px;
+    top:264px;
+}
+#PayrollSystems #Textbox
+{
+    width:201px;
+    height:19px;
+}
+#PayrollSystems #Textbox13_container
+{
+    position:absolute;
+    left:811px;
+    top:264px;
+}
+#PayrollSystems #Textbox13
+{
+    width:156px;
+    height:19px;
+}
+#PayrollSystems #label1_container
+{
+    position:absolute;
+    left:70px;
+    top:310px;
+}
+#PayrollSystems #label1_container
+{
+    width:60px;
+    height:20px;
+}
+#PayrollSystems #label1
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#PayrollSystems #label16_container
+{
+    position:absolute;
+    left:695px;
+    top:310px;
+}
+#PayrollSystems #label16_container
+{
+    width:60px;
+    height:20px;
+}
+#PayrollSystems #label16
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #Textbox1_container
+{
+    position:absolute;
+    left:219px;
+    top:310px;
+}
+#PayrollSystems #Textbox1
+{
+    width:201px;
+    height:19px;
+}
+#PayrollSystems #Textbox14_container
+{
+    position:absolute;
+    left:810px;
+    top:310px;
+}
+#PayrollSystems #Textbox14
+{
+    width:156px;
+    height:19px;
+}
+#PayrollSystems #label18_container
+{
+    position:absolute;
+    left:989px;
+    top:356px;
+}
+#PayrollSystems #label18_container
+{
+    width:28px;
+    height:20px;
+}
+#PayrollSystems #label18
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #label17_container
+{
+    position:absolute;
+    left:695px;
+    top:356px;
+}
+#PayrollSystems #label17_container
+{
+    width:83px;
+    height:20px;
+}
+#PayrollSystems #label17
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #label2_container
+{
+    position:absolute;
+    left:70px;
+    top:356px;
+}
+#PayrollSystems #label2_container
+{
+    width:83px;
+    height:20px;
+}
+#PayrollSystems #label2
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #Textbox16_container
+{
+    position:absolute;
+    left:1028px;
+    top:356px;
+}
+#PayrollSystems #Textbox16
+{
+    width:46px;
+    height:19px;
+}
+#PayrollSystems #Textbox10_container
+{
+    position:absolute;
+    left:219px;
+    top:356px;
+}
+#PayrollSystems #Textbox10
+{
+    width:201px;
+    height:19px;
+}
+#PayrollSystems #Textbox15_container
+{
+    position:absolute;
+    left:810px;
+    top:356px;
+}
+#PayrollSystems #Textbox15
+{
+    width:156px;
+    height:19px;
+}
+#PayrollSystems #label3_container
+{
+    position:absolute;
+    left:70px;
+    top:402px;
+}
+#PayrollSystems #label3_container
+{
+    width:53px;
+    height:20px;
+}
+#PayrollSystems #label3
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #Textbox11_container
+{
+    position:absolute;
+    left:219px;
+    top:406px;
+}
+#PayrollSystems #Textbox11
+{
+    width:201px;
+    height:19px;
+}
+#PayrollSystems #label4_container
+{
+    position:absolute;
+    left:70px;
+    top:448px;
+}
+#PayrollSystems #label4_container
+{
+    width:84px;
+    height:20px;
+}
+#PayrollSystems #label4
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #Textbox12_container
+{
+    position:absolute;
+    left:219px;
+    top:453px;
+}
+#PayrollSystems #Textbox12
+{
+    width:201px;
+    height:19px;
+}
+#PayrollSystems #label12_container
+{
+    position:absolute;
+    left:70px;
+    top:494px;
+}
+#PayrollSystems #label12_container
+{
+    width:124px;
+    height:20px;
+}
+#PayrollSystems #label12
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #Multiline_container
+{
+    position:absolute;
+    left:219px;
+    top:501px;
+}
+#PayrollSystems #Multiline
+{
+    width:201px;
+    height:71px;
+}
+#PayrollSystems #sfm_next_page3_container
+{
+    position:absolute;
+    left:1020px;
+    top:595px;
+    width:80px;
+    height:25px;
+}
+
+}
+#PayrollSystems #Image2_container
+{
+    z-index:1;
+}
+#PayrollSystems #horiz_line2
+{
+    z-index:2;
+    border:none;
+    border-top:2px solid #000000;
+}
+#PayrollSystems #Image3_container
+{
+    z-index:16;
+}
+#PayrollSystems #horiz_line3
+{
+    z-index:3;
+    border:none;
+    border-top:2px solid #000000;
+}
+#PayrollSystems #label19_container
+{
+    z-index:19;
+}
+#PayrollSystems #label7_container
+{
+    z-index:5;
+}
+#PayrollSystems #Textbox17_container
+{
+    z-index:20;
+}
+#PayrollSystems #Textbox17
+{
+    float:left;
+    z-index:20;
+}
+#PayrollSystems #Textbox6_container
+{
+    z-index:4;
+}
+#PayrollSystems #Textbox6
+{
+    float:left;
+    z-index:4;
+}
+#PayrollSystems #label8_container
+{
+    z-index:6;
+}
+#PayrollSystems #Textbox9_container
+{
+    z-index:12;
+}
+#PayrollSystems #Textbox9
+{
+    float:left;
+    z-index:12;
+}
+#PayrollSystems #Textbox8_container
+{
+    z-index:11;
+}
+#PayrollSystems #Textbox8
+{
+    float:left;
+    z-index:11;
+}
+#PayrollSystems #Textbox7_container
+{
+    z-index:10;
+}
+#PayrollSystems #Textbox7
+{
+    float:left;
+    z-index:10;
+}
+#PayrollSystems #CheckBoxSingle_container
+{
+    z-index:22;
+}
+#PayrollSystems #label20_container
+{
+    z-index:21;
+}
+#PayrollSystems #label9_container
+{
+    z-index:7;
+}
+#PayrollSystems #DatePicker3_container
+{
+    z-index:13;
+}
+#PayrollSystems #DatePicker3
+{
+    float:left;
+    z-index:13;
+    margin:0px;
+}
+#PayrollSystems #DatePicker3_image_container
+{
+    float:left;
+    z-index:13;
+    height:100%;
+    position:relative;
+}
+#PayrollSystems #CheckBoxSingle1_container
+{
+    z-index:24;
+}
+#PayrollSystems #label21_container
+{
+    z-index:23;
+}
+#PayrollSystems #label10_container
+{
+    z-index:8;
+}
+#PayrollSystems #DatePicker4_container
+{
+    z-index:14;
+}
+#PayrollSystems #DatePicker4
+{
+    float:left;
+    z-index:14;
+    margin:0px;
+}
+#PayrollSystems #DatePicker4_image_container
+{
+    float:left;
+    z-index:14;
+    height:100%;
+    position:relative;
+}
+#PayrollSystems #CheckBoxSingle2_container
+{
+    z-index:26;
+}
+#PayrollSystems #label22_container
+{
+    z-index:25;
+}
+#PayrollSystems #label11_container
+{
+    z-index:9;
+}
+#PayrollSystems #DatePicker5_container
+{
+    z-index:15;
+}
+#PayrollSystems #DatePicker5
+{
+    float:left;
+    z-index:15;
+    margin:0px;
+}
+#PayrollSystems #DatePicker5_image_container
+{
+    float:left;
+    z-index:15;
+    height:100%;
+    position:relative;
+}
+#PayrollSystems #sfm_prev_page1_container
+{
+    z-index:17;
+}
+#PayrollSystems #PayrollSystems_sfm_prev_page1_img
+{
+    width:84px;
+    height:29px;
+    border:none;
+}
+#PayrollSystems #sfm_next_page4_container
+{
+    z-index:18;
+}
+#PayrollSystems #PayrollSystems_sfm_next_page4_img
+{
+    width:84px;
+    height:29px;
+    border:none;
+}
+
+@media only screen and (min-width : 480px)
+{
+#PayrollSystems #PayrollSystems_outer_div_p3
+{
+    width:1150px;
+    height:660px;
+}
+#PayrollSystems #Image2_container
+{
+    position:absolute;
+    left:4px;
+    top:4px;
+    width:1141px;
+    height:109px;
+}
+#PayrollSystems #horiz_line2
+{
+    position:absolute;
+    left:9px;
+    top:121px;
+    width:1134px;
+    height:5px;
+}
+#PayrollSystems #Image3_container
+{
+    position:absolute;
+    left:9px;
+    top:126px;
+    width:1134px;
+    height:53px;
+}
+#PayrollSystems #horiz_line3
+{
+    position:absolute;
+    left:9px;
+    top:181px;
+    width:1134px;
+    height:5px;
+}
+#PayrollSystems #label19_container
+{
+    position:absolute;
+    left:567px;
+    top:259px;
+}
+#PayrollSystems #label19_container
+{
+    width:92px;
+    height:20px;
+}
+#PayrollSystems #label19
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #label7_container
+{
+    position:absolute;
+    left:55px;
+    top:259px;
+}
+#PayrollSystems #label7_container
+{
+    width:92px;
+    height:20px;
+}
+#PayrollSystems #label7
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #Textbox17_container
+{
+    position:absolute;
+    left:710px;
+    top:256px;
+}
+#PayrollSystems #Textbox17
+{
+    width:301px;
+    height:19px;
+}
+#PayrollSystems #Textbox6_container
+{
+    position:absolute;
+    left:219px;
+    top:257px;
+}
+#PayrollSystems #Textbox6
+{
+    width:176px;
+    height:19px;
+}
+#PayrollSystems #label8_container
+{
+    position:absolute;
+    left:55px;
+    top:298px;
+}
+#PayrollSystems #label8_container
+{
+    width:127px;
+    height:20px;
+}
+#PayrollSystems #label8
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#PayrollSystems #Textbox9_container
+{
+    position:absolute;
+    left:350px;
+    top:295px;
+}
+#PayrollSystems #Textbox9
+{
+    width:44px;
+    height:19px;
+}
+#PayrollSystems #Textbox8_container
+{
+    position:absolute;
+    left:284px;
+    top:295px;
+}
+#PayrollSystems #Textbox8
+{
+    width:44px;
+    height:19px;
+}
+#PayrollSystems #Textbox7_container
+{
+    position:absolute;
+    left:219px;
+    top:295px;
+}
+#PayrollSystems #Textbox7
+{
+    width:44px;
+    height:19px;
+}
+#PayrollSystems #CheckBoxSingle_container
+{
+    position:absolute;
+    left:710px;
+    top:308px;
+    width:80px;
+    height:14px;
+}
+#PayrollSystems #label20_container
+{
+    position:absolute;
+    left:567px;
+    top:304px;
+}
+#PayrollSystems #label20_container
+{
+    width:92px;
+    height:20px;
+}
+#PayrollSystems #label20
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #label9_container
+{
+    position:absolute;
+    left:55px;
+    top:337px;
+}
+#PayrollSystems #label9_container
+{
+    width:53px;
+    height:20px;
+}
+#PayrollSystems #label9
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#PayrollSystems #DatePicker3_container
+{
+    position:absolute;
+    left:219px;
+    top:333px;
+    width:182px;
+    height:25px;
+}
+#PayrollSystems #DatePicker3
+{
+    width:145px;
+    height:19px;
+}
+#PayrollSystems #DatePicker3_image_container
+{
+    width:20px;
+}
+#PayrollSystems #DatePicker3_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-11px;
+    margin-left:1px;
+}
+#PayrollSystems #CheckBoxSingle1_container
+{
+    position:absolute;
+    left:710px;
+    top:349px;
+    width:80px;
+    height:14px;
+}
+#PayrollSystems #label21_container
+{
+    position:absolute;
+    left:567px;
+    top:346px;
+}
+#PayrollSystems #label21_container
+{
+    width:158px;
+    height:20px;
+}
+#PayrollSystems #label21
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #label10_container
+{
+    position:absolute;
+    left:57px;
+    top:375px;
+}
+#PayrollSystems #label10_container
+{
+    width:55px;
+    height:20px;
+}
+#PayrollSystems #label10
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#PayrollSystems #DatePicker4_container
+{
+    position:absolute;
+    left:219px;
+    top:371px;
+    width:182px;
+    height:25px;
+}
+#PayrollSystems #DatePicker4
+{
+    width:145px;
+    height:19px;
+}
+#PayrollSystems #DatePicker4_image_container
+{
+    width:20px;
+}
+#PayrollSystems #DatePicker4_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-11px;
+    margin-left:1px;
+}
+#PayrollSystems #CheckBoxSingle2_container
+{
+    position:absolute;
+    left:710px;
+    top:390px;
+    width:80px;
+    height:14px;
+}
+#PayrollSystems #label22_container
+{
+    position:absolute;
+    left:567px;
+    top:386px;
+}
+#PayrollSystems #label22_container
+{
+    width:129px;
+    height:20px;
+}
+#PayrollSystems #label22
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #label11_container
+{
+    position:absolute;
+    left:58px;
+    top:412px;
+}
+#PayrollSystems #label11_container
+{
+    width:92px;
+    height:20px;
+}
+#PayrollSystems #label11
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #DatePicker5_container
+{
+    position:absolute;
+    left:219px;
+    top:409px;
+    width:182px;
+    height:25px;
+}
+#PayrollSystems #DatePicker5
+{
+    width:145px;
+    height:19px;
+}
+#PayrollSystems #DatePicker5_image_container
+{
+    width:20px;
+}
+#PayrollSystems #DatePicker5_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-11px;
+    margin-left:1px;
+}
+#PayrollSystems #sfm_prev_page1_container
+{
+    position:absolute;
+    left:901px;
+    top:595px;
+    width:80px;
+    height:25px;
+}
+#PayrollSystems #sfm_next_page4_container
+{
+    position:absolute;
+    left:1023px;
+    top:595px;
+    width:80px;
+    height:25px;
+}
+
+}
+#PayrollSystems #label23
+{
+    font-family:Arial;
+    font-size:14px;
+    color:#000000;
+    font-weight:bold;
+}
+#PayrollSystems #label26
+{
+    font-family:Arial;
+    font-size:14px;
+    color:#000000;
+    font-weight:bold;
+}
+#PayrollSystems #label27
+{
+    font-family:Arial;
+    font-size:14px;
+    color:#000000;
+    font-weight:bold;
+}
+#PayrollSystems #label24
+{
+    font-family:Arial;
+    font-size:14px;
+    color:#000000;
+    font-weight:bold;
+}
+#PayrollSystems #label25
+{
+    font-family:Arial;
+    font-size:14px;
+    color:#000000;
+    font-weight:bold;
+}
+
+#PayrollSystems #Image4_container
+{
+    z-index:3;
+}
+#PayrollSystems #horiz_line4
+{
+    z-index:4;
+    border:none;
+    border-top:2px solid #000000;
+}
+#PayrollSystems #Image5_container
+{
+    z-index:6;
+}
+#PayrollSystems #horiz_line5
+{
+    z-index:5;
+    border:none;
+    border-top:2px solid #000000;
+}
+#PayrollSystems #label23_container
+{
+    z-index:7;
+}
+#PayrollSystems #label26_container
+{
+    z-index:10;
+}
+#PayrollSystems #label27_container
+{
+    z-index:11;
+}
+#PayrollSystems #label24_container
+{
+    z-index:8;
+}
+#PayrollSystems #label25_container
+{
+    z-index:9;
+}
+#PayrollSystems #Textbox18_container
+{
+    z-index:12;
+}
+#PayrollSystems #Textbox18
+{
+    float:left;
+    z-index:12;
+}
+#PayrollSystems #Textbox19_container
+{
+    z-index:13;
+}
+#PayrollSystems #Textbox19
+{
+    float:left;
+    z-index:13;
+}
+#PayrollSystems #Textbox20_container
+{
+    z-index:14;
+}
+#PayrollSystems #Textbox20
+{
+    float:left;
+    z-index:14;
+}
+#PayrollSystems #Textbox21_container
+{
+    z-index:15;
+}
+#PayrollSystems #Textbox21
+{
+    float:left;
+    z-index:15;
+}
+#PayrollSystems #Textbox22_container
+{
+    z-index:16;
+}
+#PayrollSystems #Textbox22
+{
+    float:left;
+    z-index:16;
+}
+#PayrollSystems #Textbox23_container
+{
+    z-index:17;
+}
+#PayrollSystems #Textbox23
+{
+    float:left;
+    z-index:17;
+}
+#PayrollSystems #Textbox24_container
+{
+    z-index:18;
+}
+#PayrollSystems #Textbox24
+{
+    float:left;
+    z-index:18;
+}
+#PayrollSystems #Textbox25_container
+{
+    z-index:19;
+}
+#PayrollSystems #Textbox25
+{
+    float:left;
+    z-index:19;
+}
+#PayrollSystems #Textbox26_container
+{
+    z-index:20;
+}
+#PayrollSystems #Textbox26
+{
+    float:left;
+    z-index:20;
+}
+#PayrollSystems #Textbox27_container
+{
+    z-index:21;
+}
+#PayrollSystems #Textbox27
+{
+    float:left;
+    z-index:21;
+}
+#PayrollSystems #Textbox28_container
+{
+    z-index:22;
+}
+#PayrollSystems #Textbox28
+{
+    float:left;
+    z-index:22;
+}
+#PayrollSystems #Textbox29_container
+{
+    z-index:23;
+}
+#PayrollSystems #Textbox29
+{
+    float:left;
+    z-index:23;
+}
+#PayrollSystems #Textbox30_container
+{
+    z-index:24;
+}
+#PayrollSystems #Textbox30
+{
+    float:left;
+    z-index:24;
+}
+#PayrollSystems #Textbox31_container
+{
+    z-index:25;
+}
+#PayrollSystems #Textbox31
+{
+    float:left;
+    z-index:25;
+}
+#PayrollSystems #Textbox32_container
+{
+    z-index:26;
+}
+#PayrollSystems #Textbox32
+{
+    float:left;
+    z-index:26;
+}
+#PayrollSystems #sfm_prev_page2_container
+{
+    z-index:1;
+}
+#PayrollSystems #PayrollSystems_sfm_prev_page2_img
+{
+    width:84px;
+    height:29px;
+    border:none;
+}
+#PayrollSystems #sfm_save_n_close_container
+{
+    z-index:2;
+}
+#PayrollSystems #PayrollSystems_sfm_save_n_close_img
+{
+    width:124px;
+    height:29px;
+    border:none;
+}
+
+@media only screen and (min-width : 480px)
+{
+#PayrollSystems #PayrollSystems_outer_div_p4
+{
+    width:1150px;
+    height:660px;
+}
+#PayrollSystems #Image4_container
+{
+    position:absolute;
+    left:5px;
+    top:6px;
+    width:1141px;
+    height:109px;
+}
+#PayrollSystems #horiz_line4
+{
+    position:absolute;
+    left:8px;
+    top:123px;
+    width:1134px;
+    height:5px;
+}
+#PayrollSystems #Image5_container
+{
+    position:absolute;
+    left:5px;
+    top:128px;
+    width:1141px;
+    height:53px;
+}
+#PayrollSystems #horiz_line5
+{
+    position:absolute;
+    left:8px;
+    top:183px;
+    width:1134px;
+    height:5px;
+}
+#PayrollSystems #label23_container
+{
+    position:absolute;
+    left:94px;
+    top:256px;
+}
+#PayrollSystems #label23_container
+{
+    width:132px;
+    height:20px;
+}
+#PayrollSystems #label23
+{
+    position:absolute;
+    top:2px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #label26_container
+{
+    position:absolute;
+    left:700px;
+    top:257px;
+}
+#PayrollSystems #label26_container
+{
+    width:132px;
+    height:20px;
+}
+#PayrollSystems #label26
+{
+    position:absolute;
+    top:2px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #label27_container
+{
+    position:absolute;
+    left:912px;
+    top:257px;
+}
+#PayrollSystems #label27_container
+{
+    width:158px;
+    height:20px;
+}
+#PayrollSystems #label27
+{
+    position:absolute;
+    top:2px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #label24_container
+{
+    position:absolute;
+    left:296px;
+    top:257px;
+}
+#PayrollSystems #label24_container
+{
+    width:132px;
+    height:20px;
+}
+#PayrollSystems #label24
+{
+    position:absolute;
+    top:2px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #label25_container
+{
+    position:absolute;
+    left:498px;
+    top:257px;
+}
+#PayrollSystems #label25_container
+{
+    width:132px;
+    height:20px;
+}
+#PayrollSystems #label25
+{
+    position:absolute;
+    top:2px;
+    left:0px;
+    text-align:left;
+}
+#PayrollSystems #Textbox18_container
+{
+    position:absolute;
+    left:92px;
+    top:303px;
+}
+#PayrollSystems #Textbox18
+{
+    width:143px;
+    height:19px;
+}
+#PayrollSystems #Textbox19_container
+{
+    position:absolute;
+    left:294px;
+    top:303px;
+}
+#PayrollSystems #Textbox19
+{
+    width:143px;
+    height:19px;
+}
+#PayrollSystems #Textbox20_container
+{
+    position:absolute;
+    left:497px;
+    top:304px;
+}
+#PayrollSystems #Textbox20
+{
+    width:143px;
+    height:19px;
+}
+#PayrollSystems #Textbox21_container
+{
+    position:absolute;
+    left:698px;
+    top:304px;
+}
+#PayrollSystems #Textbox21
+{
+    width:143px;
+    height:19px;
+}
+#PayrollSystems #Textbox22_container
+{
+    position:absolute;
+    left:911px;
+    top:304px;
+}
+#PayrollSystems #Textbox22
+{
+    width:148px;
+    height:19px;
+}
+#PayrollSystems #Textbox23_container
+{
+    position:absolute;
+    left:92px;
+    top:354px;
+}
+#PayrollSystems #Textbox23
+{
+    width:143px;
+    height:19px;
+}
+#PayrollSystems #Textbox24_container
+{
+    position:absolute;
+    left:294px;
+    top:354px;
+}
+#PayrollSystems #Textbox24
+{
+    width:143px;
+    height:19px;
+}
+#PayrollSystems #Textbox25_container
+{
+    position:absolute;
+    left:497px;
+    top:355px;
+}
+#PayrollSystems #Textbox25
+{
+    width:143px;
+    height:19px;
+}
+#PayrollSystems #Textbox26_container
+{
+    position:absolute;
+    left:698px;
+    top:355px;
+}
+#PayrollSystems #Textbox26
+{
+    width:143px;
+    height:19px;
+}
+#PayrollSystems #Textbox27_container
+{
+    position:absolute;
+    left:911px;
+    top:355px;
+}
+#PayrollSystems #Textbox27
+{
+    width:148px;
+    height:19px;
+}
+#PayrollSystems #Textbox28_container
+{
+    position:absolute;
+    left:92px;
+    top:407px;
+}
+#PayrollSystems #Textbox28
+{
+    width:143px;
+    height:19px;
+}
+#PayrollSystems #Textbox29_container
+{
+    position:absolute;
+    left:294px;
+    top:407px;
+}
+#PayrollSystems #Textbox29
+{
+    width:143px;
+    height:19px;
+}
+#PayrollSystems #Textbox30_container
+{
+    position:absolute;
+    left:497px;
+    top:408px;
+}
+#PayrollSystems #Textbox30
+{
+    width:143px;
+    height:19px;
+}
+#PayrollSystems #Textbox31_container
+{
+    position:absolute;
+    left:698px;
+    top:408px;
+}
+#PayrollSystems #Textbox31
+{
+    width:143px;
+    height:19px;
+}
+#PayrollSystems #Textbox32_container
+{
+    position:absolute;
+    left:911px;
+    top:408px;
+}
+#PayrollSystems #Textbox32
+{
+    width:148px;
+    height:19px;
+}
+#PayrollSystems #sfm_prev_page2_container
+{
+    position:absolute;
+    left:890px;
+    top:586px;
+    width:80px;
+    height:25px;
+}
+#PayrollSystems #sfm_save_n_close_container
+{
+    position:absolute;
+    left:993px;
+    top:586px;
+    width:120px;
+    height:25px;
+}
+
+}
