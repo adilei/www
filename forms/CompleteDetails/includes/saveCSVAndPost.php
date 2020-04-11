@@ -46,6 +46,7 @@ class SaveCSVtoServer extends FM_ExtensionModule
           CURLOPT_HTTPHEADER => array(
             "Authorization: JWT ".$token,
             "Content-Type: application/json",
+            "Accept: application/json",
             "X-Requested-By: 111"
           ),
         ));
