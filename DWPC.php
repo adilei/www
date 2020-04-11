@@ -3,7 +3,7 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://mobility270-dsom-dwpc.trybmc.com/api/rx/application/command",
+  CURLOPT_URL => "https://bmchelixgold-dsom-dwpc.trybmc.com/api/rx/application/command",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_SSLVERSION => 6,
@@ -38,7 +38,7 @@ echo $token;
 $curl_signal = curl_init();
 
 curl_setopt_array($curl_signal, array(
-  CURLOPT_URL => "https://mobility270-dsom-dwpc.trybmc.com/api/myit-sb/processes/signal",
+  CURLOPT_URL => "https://bmchelixgold-dsom-dwpc.trybmc.com/api/myit-sb/processes/signal",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
@@ -46,12 +46,13 @@ curl_setopt_array($curl_signal, array(
   CURLOPT_FOLLOWLOCATION => true,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
-  CURLOPT_POSTFIELDS =>"{\n    \"resourceType\": \"com.bmc.arsys.rx.application.process.command.SignalProcessInstanceCommand\",\n    \"processCorrelation\": {\n        \"resourceType\": \"com.bmc.arsys.rx.services.process.domain.AutomaticCorrelation\",\n        \"processCorrelationId\": \"rx-3f370925-6577-4020-856e-5a3a6776ddb6|IDGFPI1ZGM0EQAQIJ0JRQIJ0JRYFCQ||IDGFPI1ZGM0EQAQIJ0JRQIJ0JRYFCQ\"\n    },\n    \"signalInputValues\": {\n        \"Work Status\": \"Cancelled\"\n    }\n}",
+  CURLOPT_POSTFIELDS =>"{\n    \"resourceType\": \"com.bmc.arsys.rx.application.process.command.SignalProcessInstanceCommand\",\n    \"processCorrelation\": {\n        \"resourceType\": \"com.bmc.arsys.rx.services.process.domain.AutomaticCorrelation\",\n        \"processCorrelationId\": \"rx-3f370925-6577-4020-856e-5a3a6776ddb6|IDGDU7O9DKH0XAQIMJNGQIMJNGRZ4H||IDGDU7O9DKH0XAQIMJNGQIMJNGRZ4H\"\n    },\n    \"signalInputValues\": {\n        \"Work Status\": \"Cancelled\"\n    }\n}",
   CURLOPT_HTTPHEADER => array(
     "Authorization: JWT ".$token,
     "Content-Type: application/json",
     "Accept: application/json",
-    "X-Requested-By: 111"
+    "X-Requested-By: 111",
+    "Cookie: AR-JWT=".$token //"; route=1586594976.017.74.149723; _cacheId=38850"
   ),
 ));
 

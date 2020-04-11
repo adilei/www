@@ -45,6 +45,7 @@ class SaveCSVtoServer extends FM_ExtensionModule
           CURLOPT_POSTFIELDS =>"{\n    \"resourceType\": \"com.bmc.arsys.rx.application.process.command.SignalProcessInstanceCommand\",\n    \"processCorrelation\": {\n        \"resourceType\": \"com.bmc.arsys.rx.services.process.domain.AutomaticCorrelation\",\n        \"processCorrelationId\": \"".$procCorr."\"\n    },\n    \"signalInputValues\": {\n        \"Work Status\": \"Cancelled\"\n    }\n}",
           CURLOPT_HTTPHEADER => array(
             "Authorization: JWT ".$token,
+            "Cookie: AR-JWT=".$token,
             "Content-Type: application/json",
             "Accept: application/json",
             "X-Requested-By: 111"
