@@ -25,7 +25,7 @@ require_once(dirname(__FILE__)."/includes/CompleteDetails-lib.php");
 $formproc_obj =  new SFM_FormProcessor('CompleteDetails');
 $formproc_obj->initTimeZone('Asia/Jerusalem');
 $formproc_obj->setFormID('0753471c-5ec2-4ec0-9ca1-e9ba8d93b3a8');
-$formproc_obj->setRandKey('638ae13e-3f27-4358-aaf0-a524ab3d4bf8');
+$formproc_obj->setRandKey('3cf17317-7017-4b91-8c5c-ceaf9688d56a');
 $formproc_obj->setFormKey('fc258910-6f0a-469b-9c3b-6f3f07dd649d');
 $formproc_obj->setLocale('en-US','M/d/yyyy');
 $formproc_obj->setEmailFormatHTML(true);
@@ -62,7 +62,6 @@ $validator->addValidation("SSN","numeric","The input for SSN should be a valid n
 $validator->addValidation("SSN","minlen=9","Please provide exactly 9 digits for SSN");
 $validator->addValidation("SSN","maxlen=9","Please provide exactly 9 digits for SSN");
 $validator->addValidation("check_image","max_numfiles=2","You can upload only 2 files for this field");
-$validator->addValidation("check_image","max_filesize=2048","The file size should be less than 2 MB");
 $formproc_obj->addModule($validator);
 
 $upld =  new FM_FileUploadHandler();

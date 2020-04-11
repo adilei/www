@@ -60,7 +60,7 @@
                </div>
             </div>
          </div>
-<div class='sfm_cr_box' style='padding:3px; width:350px;cursor:default'>Web form powered by <a style='text-decoration:none;' rel='nofollow' href='http://simfatic.com/form-software/'>Simfatic Forms</a> - web form design software</div>
+<div class='sfm_cr_box' style='padding:3px; width:350px;cursor:default'>We build such forms using <a rel='nofollow' style='text-decoration:none;' href='http://simfatic.com/form-software/simple-form-builder.html'>Simfatic Forms form creator software</a></div>
       </form>
       <script type='text/javascript'>
 $(function()
@@ -95,7 +95,7 @@ $(function()
    }catch(err){  }
    /* Custom JavaScript End */
 });
-$("form#CompleteDetails #check_image_container").sfmFileUpload({ name:"check_image",url:"%sfm_self_script%",docicon:"images/1325057384_document.png",button_label:"Click to upload",max_num_files:2,error_txt_max_num:"You can upload only 2 files for this field",max_file_size:2048,error_txt_max_size:"The file size should be less than 2 MB" });
+$("form#CompleteDetails #check_image_container").sfmFileUpload({ name:"check_image",url:"%sfm_self_script%",docicon:"images/1325057384_document.png",button_label:"Click to upload",max_num_files:2,error_txt_max_num:"You can upload only 2 files for this field" });
       </script>
       <script type='text/javascript'>
 var CompleteDetailsValidator = new Validator("CompleteDetails");
