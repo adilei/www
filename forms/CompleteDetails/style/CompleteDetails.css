@@ -99,7 +99,7 @@
 #CompleteDetails .form_outer_div
 {
     margin:0 auto;
-    border:none;
+    border:1px solid #333333;
     background-color:#ffffff;
 }
 #CompleteDetails .sfm_form_label
@@ -113,6 +113,10 @@
 body#sfm_CompleteDetails_body
 {
     background-color:transparent;
+    background-image:url('images/office_large_blur.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:left center;
     font-family:Arial;
     font-size:12px;
     color:#000000;
@@ -198,7 +202,7 @@ body#sfm_CompleteDetails_body
 
 #CompleteDetails #heading_container
 {
-    z-index:4;
+    z-index:7;
 }
 #CompleteDetails #label_container
 {
@@ -208,56 +212,100 @@ body#sfm_CompleteDetails_body
 {
     text-align:left;
     font-family:Arial;
-    font-size:9pt;
+    font-size:12pt;
     color:#000000;
+}
+#CompleteDetails #label6_container
+{
+    z-index:5;
+}
+#CompleteDetails #label6
+{
+    text-align:left;
+    font-family:Arial;
+    font-size:9pt;
+    color:#ffffff;
 }
 #CompleteDetails #label1_container
 {
-    z-index:2;
+    z-index:15;
+}
+#CompleteDetails #label1
+{
+    text-align:left;
+    font-family:Arial;
+    font-size:12pt;
+    color:#000000;
 }
 #CompleteDetails #SSN_container
 {
-    z-index:3;
+    z-index:6;
 }
 #CompleteDetails #SSN
 {
     float:left;
+    z-index:6;
+}
+#CompleteDetails #label3_container
+{
     z-index:3;
 }
-#CompleteDetails #upload_container
+#CompleteDetails #label3
 {
-    z-index:11;
+    text-align:left;
+    font-family:Arial;
+    font-size:9pt;
+    color:#ffffff;
 }
-#CompleteDetails #horiz_line
+#CompleteDetails #label2_container
 {
-    z-index:12;
-    border:none;
-    border-top:2px solid #000000;
+    z-index:2;
+}
+#CompleteDetails #label2
+{
+    text-align:left;
+    font-family:Arial;
+    font-size:12pt;
+    color:#000000;
+}
+#CompleteDetails #check_image_container
+{
+    z-index:14;
+}
+#CompleteDetails #label5_container
+{
+    z-index:4;
+}
+#CompleteDetails #label5
+{
+    text-align:left;
+    font-family:Arial;
+    font-size:9pt;
+    color:#ffffff;
 }
 #CompleteDetails #Submit_container
 {
-    z-index:10;
+    z-index:13;
 }
-#CompleteDetails #CompleteDetails_Submit_img
+#CompleteDetails #Submit
 {
-    width:300px;
-    height:48px;
-    border:none;
+    float:left;
+    z-index:13;
 }
 
 @media only screen and (min-width : 480px)
 {
 #CompleteDetails #CompleteDetails_outer_div_p1
 {
-    width:300px;
-    height:450px;
+    width:457px;
+    height:664px;
 }
 #CompleteDetails #heading_container
 {
     position:absolute;
-    left:10px;
-    top:0px;
-    width:160px;
+    left:30px;
+    top:38px;
+    width:392px;
     height:20px;
 }
 #CompleteDetails #heading
@@ -270,9 +318,9 @@ body#sfm_CompleteDetails_body
 #CompleteDetails #label_container
 {
     position:absolute;
-    left:9px;
-    top:31px;
-    width:284px;
+    left:30px;
+    top:69px;
+    width:392px;
     height:31px;
 }
 #CompleteDetails #label
@@ -281,58 +329,107 @@ body#sfm_CompleteDetails_body
     left:0px;
     top:0px;
 }
-#CompleteDetails #label1_container
+#CompleteDetails #label6_container
 {
     position:absolute;
-    left:9px;
-    top:109px;
+    left:34px;
+    top:129px;
+    width:386px;
+    height:20px;
+}
+#CompleteDetails #label6
+{
+    position:absolute;
+    left:0px;
+    top:0px;
 }
 #CompleteDetails #label1_container
 {
-    width:226px;
-    height:20px;
+    position:absolute;
+    left:30px;
+    top:176px;
+    width:392px;
+    height:31px;
 }
 #CompleteDetails #label1
 {
     position:absolute;
-    top:3px;
     left:0px;
-    text-align:left;
+    top:0px;
 }
 #CompleteDetails #SSN_container
 {
     position:absolute;
-    left:9px;
-    top:134px;
+    left:30px;
+    top:207px;
 }
 #CompleteDetails #SSN
 {
-    width:207px;
+    width:386px;
     height:19px;
 }
-#CompleteDetails #upload_container
+#CompleteDetails #label3_container
+{
+    position:absolute;
+    left:33px;
+    top:241px;
+    width:386px;
+    height:90px;
+}
+#CompleteDetails #label3
 {
     position:absolute;
     left:0px;
-    top:168px;
-    width:191px;
+    top:0px;
+}
+#CompleteDetails #label2_container
+{
+    position:absolute;
+    left:30px;
+    top:338px;
+    width:392px;
+    height:31px;
+}
+#CompleteDetails #label2
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+#CompleteDetails #check_image_container
+{
+    position:absolute;
+    left:30px;
+    top:377px;
+    width:392px;
     height:170px;
 }
-#CompleteDetails #horiz_line
+#CompleteDetails #label5_container
+{
+    position:absolute;
+    left:33px;
+    top:560px;
+    width:386px;
+    height:15px;
+}
+#CompleteDetails #label5
 {
     position:absolute;
     left:0px;
-    top:396px;
-    width:300px;
-    height:5px;
+    top:0px;
 }
 #CompleteDetails #Submit_container
 {
     position:absolute;
-    left:0px;
-    top:402px;
-    width:300px;
-    height:48px;
+    left:162px;
+    top:600px;
+    width:122px;
+    height:42px;
+}
+#CompleteDetails #Submit
+{
+    width:122px;
+    height:42px;
 }
 
 }

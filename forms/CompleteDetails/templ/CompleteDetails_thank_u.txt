@@ -46,10 +46,7 @@ body
    </head>
    <body onload='window.parent.scroll(0,0);' style='BACKGROUND-COLOR: transparent'>
       <h2 >Thank You!</h2>
-      <strong >
-We are now all&nbsp;good 
-to&nbsp;go!
-      </strong>
+      <strong >We are now all&nbsp;good to&nbsp;go! </strong>
 &nbsp;
    </body>
 </html>

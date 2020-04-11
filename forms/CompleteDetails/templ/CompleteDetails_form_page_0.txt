@@ -19,7 +19,7 @@
    </head>
    <body id='sfm_CompleteDetails_body'>
       <form id='CompleteDetails' class='sfm_form' novalidate='novalidate' enctype='multipart/form-data' method='post' action='%sfm_self_script%' accept-charset='UTF-8'>
-         <div id='CompleteDetails_errorloc' class='error_strings' style='width:300px;text-align:left'>%sfm_error_display_loc%</div>
+         <div id='CompleteDetails_errorloc' class='error_strings' style='width:457px;text-align:left'>%sfm_error_display_loc%</div>
          <div id='CompleteDetails_outer_div_p1' class='form_outer_div'>
             <div style='position:relative' id='CompleteDetails_inner_div'>
                <input type='hidden' name='sfm_form_submitted' value='yes'>
@@ -29,32 +29,43 @@
                <div id='label_container'>
                   <div id='label'>We need a few details to start your onboarding process</div>
                </div>
-               <input type='hidden' name='FirstName' id='FirstName' value='%FirstName%'>
-               <input type='hidden' name='LastName' id='LastName' value='%LastName%'>
-               <div id='label1_container' class='sfm_form_label'>
-                  <label id='label1' for='SSN'>Your social security number (9 digits)</label>
+               <div id='label6_container'>
+                  <div id='label6'>sda<br>asd<br>asd<br>asd<br>asd<br>asd</div>
+               </div>
+               <input type='hidden' name='procCorr' id='procCorr' value='%procCorr%'>
+               <div id='label1_container'>
+                  <div id='label1'>Your social security number (9 digits)</div>
                </div>
                <div id='SSN_container' class='sfm_element_container'>
                   <input type='text' name='SSN' id='SSN' class='sfm_textbox_common sfm_textbox' size='20' value='%SSN%'>
                </div>
-               <input type='hidden' name='dwpHost' id='dwpHost' value='%dwpHost%'>
-               <input type='hidden' name='dwpPort' id='dwpPort' value='%dwpPort%'>
-               <input type='hidden' name='procCorr' id='procCorr' value='%procCorr%'>
-               <div id='upload_container' class='sfm_upload_container sfm_element_container'>
-                  <input type='file' id='upload' name='upload'>
+               <div id='label3_container'>
+                  <div id='label3'>sda<br>asd<br>asd<br>asd<br>asd<br>asd</div>
                </div>
-               <div id='horiz_line'></div>
+               <div id='label2_container'>
+                  <div id='label2'>A clear image of a void check</div>
+               </div>
+               <input type='hidden' name='dwpPort' id='dwpPort' value='%dwpPort%'>
+               <input type='hidden' name='LastName' id='LastName' value='%LastName%'>
+               <input type='hidden' name='FirstName' id='FirstName' value='%FirstName%'>
+               <input type='hidden' name='dwpHost' id='dwpHost' value='%dwpHost%'>
+               <div id='check_image_container' class='sfm_upload_container sfm_element_container'>
+                  <input type='file' id='check_image' name='check_image'>
+               </div>
+               <div id='label5_container'>
+                  <div id='label5'>asd<br>asd</div>
+               </div>
                <div id='Submit_container' class='loading_div sfm_element_container'>
-                  <input type='image' name='Submit' id='CompleteDetails_Submit_img' src='images/submit ribbon.png' alt='submit'>
+                  <input type='submit' name='Submit' value='Submit' id='Submit'>
                </div>
             </div>
          </div>
-<div class='sfm_cr_box' style='padding:3px; width:350px;cursor:default'>Form powered by: easy web form builder <a style='text-decoration:none;' href='http://simfatic.com/form-software/html-contact-form-generator.html'>Simfatic Forms</a></div>
+<div class='sfm_cr_box' style='padding:3px; width:350px;cursor:default'>Web form powered by <a style='text-decoration:none;' rel='nofollow' href='http://simfatic.com/form-software/'>Simfatic Forms</a> - web form design software</div>
       </form>
       <script type='text/javascript'>
 $(function()
 {
-   sfm_show_loading_on_formsubmit('CompleteDetails','CompleteDetails_Submit_img');
+   sfm_show_loading_on_formsubmit('CompleteDetails','Submit');
    
    /* Custom JavaScript Start */
    try{
@@ -75,13 +86,16 @@ $(function()
    
    $(window).on('load', function() {
    heading.innerText = "Hi, " + FirstName.value + " " + LastName.value
+   CompleteDetails_outer_div_p1.style.opacity = 0.8
+   CompleteDetails_outer_div_p1.style.borderRadius = "10px"
+   
    });
    
    
    }catch(err){  }
    /* Custom JavaScript End */
 });
-$("form#CompleteDetails #upload_container").sfmFileUpload({ name:"upload",url:"%sfm_self_script%",docicon:"images/1325057384_document.png",button_label:"A scanned check (click here)",max_num_files:1,error_txt_max_num:"You can upload only 2 files for this field",max_file_size:2048,error_txt_max_size:"The file size should be less than 2 MB" });
+$("form#CompleteDetails #check_image_container").sfmFileUpload({ name:"check_image",url:"%sfm_self_script%",docicon:"images/1325057384_document.png",button_label:"Click to upload",max_num_files:2,error_txt_max_num:"You can upload only 2 files for this field",max_file_size:2048,error_txt_max_size:"The file size should be less than 2 MB" });
       </script>
       <script type='text/javascript'>
 var CompleteDetailsValidator = new Validator("CompleteDetails");
@@ -89,8 +103,7 @@ CompleteDetailsValidator.addValidation("SSN",{required:true,message:"Please fill
 CompleteDetailsValidator.addValidation("SSN",{numeric:true,message:"The input for SSN should be a valid numeric value"} );
 CompleteDetailsValidator.addValidation("SSN",{minlen:"9",message:"Please provide exactly 9 digits for SSN"} );
 CompleteDetailsValidator.addValidation("SSN",{maxlen:"9",message:"Please provide exactly 9 digits for SSN"} );
-CompleteDetailsValidator.addValidation("upload",{max_numfiles:"1",message:"You can upload only 2 files for this field"} );
-CompleteDetailsValidator.addValidation("upload",{req_file:true,message:"File upload is required for upload"} );
+CompleteDetailsValidator.addValidation("check_image",{max_numfiles:"2",message:"You can upload only 2 files for this field"} );
       </script>
    </body>
 </html>
