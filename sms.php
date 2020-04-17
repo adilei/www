@@ -19,6 +19,7 @@
   {
     $twilio = new Client($twilio_info['sid'], $twilio_info['token']); 
     $url = urlencode($urlToClick);
+    //shorten URL
     $cuttly_json = file_get_contents("https://cutt.ly/api/api.php?key=".$cuttly_info['apikey']."&short=".$url);
     $cuttly_data = json_decode ($cuttly_json, true);
     
