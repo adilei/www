@@ -13,6 +13,7 @@ Open the module and update the url and the vaues to send to the next form. Make 
 class SaveCSVtoServer extends FM_ExtensionModule
 {
     function releaseDWP($dwpHost, $dwpPort, $procCorr,$protocol){
+		error_log($protocol."://".$dwpHost.":".$dwpPort."/api/rx/application/command");
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
@@ -62,9 +63,10 @@ class SaveCSVtoServer extends FM_ExtensionModule
         */
         function  FormSubmitted(&$formvars)
         {
-          $config = parse_ini_file("../../../config.ini.php",true);
-          $dwpProtocol = $config['dwpc']['dwpProtocol'];
-
+          $config = parse_ini_file("../../config.ini.php",true);
+		  $dwpProtocol = $config['dwpc']['dwpProtocol'];
+		  error_log("protocol: ".$dwpProtocol);
+		  
           $csv_filename = "form_results.csv";
           unlink($csv_filenanme);
           
